@@ -1566,7 +1566,14 @@
 				"nextPhraseID":"tt_sly_250",
 				"text":"[to self] What was Andor trying to do now?"
 			}
-		]
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":130
+            }
+        ]
 	},
     {
         "id":"tt_sly_250",
