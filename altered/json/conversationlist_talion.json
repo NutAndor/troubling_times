@@ -47,7 +47,7 @@
                 ]
             },
             {
-                "text":"Here I bring the things you've required for dispelling.",
+                "text":"Here I've brought you the things that you require for the dispelling.",
                 "nextPhraseID":"tt_talion_64",
                 "requires":[
                     {
