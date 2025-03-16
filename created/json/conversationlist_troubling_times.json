@@ -2262,6 +2262,7 @@
 	},
     {
         "id":"tt_sly4_2",
+		"switchToNPC":"tt_seraphina4",
 		"message":"Nice compliment, kid. Ooouw ...",
         "replies":[
             {
