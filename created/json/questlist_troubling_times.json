@@ -74,7 +74,7 @@
             },
             {
                 "progress": 160,
-                "logText": "Nanath told me to search her either to the east of Sullengard, or in the mountains above Blackwater, or on the way to Remgard."
+                "logText": "Nanath told me to look for her in her usual hidings: Sullengard, Stoutford, Vilegard, Prim, Loneford or Brimhaven."
             },
             {
                 "progress": 170,
@@ -126,7 +126,7 @@
             },
             {
                 "progress": 252,
-                "logText": "I tried to poison Seraphina, but she noticed in time."
+                "logText": "I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose."
             },
             {
                 "progress": 255,

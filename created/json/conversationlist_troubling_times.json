@@ -713,7 +713,7 @@
     },
     {
         "id":"nanath_182",
-		"message":"Check around areas east of Sullengard, or in the mountains above Blackwater, or maybe even the Arulir mountains or Remgard for her haunts.",
+		"message":"Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course.",
         "replies":[
             {
                 "text":"OK.",
@@ -1274,6 +1274,15 @@
         "id":"tt_sly_110",
 		"replies":[
 			{
+				"nextPhraseID":"tt_sly_116",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"17"
+                    }
+                ]
+			},
+			{
 				"nextPhraseID":"tt_sly_115",
                 "requires":[
                     {
@@ -1345,12 +1354,12 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"wild21"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"wild21"
             }
         ]
 	},
@@ -1365,12 +1374,12 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven1"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven1"
             }
         ]
 	},
@@ -1385,12 +1394,12 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"blackwater_mountain12"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"blackwater_mountain12"
             }
         ]
 	},
@@ -1405,12 +1414,32 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven3"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven3"
+            }
+        ]
+	},
+    {
+        "id":"tt_sly_116",
+		"replies":[
+			{
+				"nextPhraseID":"tt_sly_120"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tt_seraphina",
+                "mapName":"vilegard_s"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tt_guys",
+                "mapName":"vilegard_s"
             }
         ]
 	},
@@ -1478,6 +1507,31 @@
                 "rewardType":"deactivateSpawnArea",
                 "rewardID":"tt_guys",
                 "mapName":"sullengard3"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"wild21"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"waytobrimhaven1"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"blackwater_mountain12"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"waytobrimhaven3"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"vilegard_s"
             }
         ]
 	},
@@ -1665,42 +1719,52 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"wild21"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"wild21"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven1"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven1"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"blackwater_mountain12"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"blackwater_mountain12"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_seraphina",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven3"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"sullengard3"
+                "mapName":"waytobrimhaven3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tt_seraphina",
+                "mapName":"vilegard_s"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tt_guys",
+                "mapName":"vilegard_s"
             }
         ]
 	},
@@ -2453,7 +2517,24 @@
  	},
     {
         "id":"tt_sly5_10",
-		"message":"Are you looking for this ring here?",
+		"message":"Of course I'll help you. What are you looking for?",
+        "replies":[
+            {
+                "text":"Luthor's ring, of course. I just can't find it.",
+				"nextPhraseID":"tt_sly5_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times",
+                "value":260
+            }
+        ]
+ 	},
+    {
+        "id":"tt_sly5_12",
+		"message":"Ah - you are looking for this ring here, am I right?",
         "replies":[
             {
                 "text":"What? And I've been searching here for hours!",
@@ -2463,7 +2544,7 @@
  	},
     {
         "id":"tt_sly5_20",
-		"message":"You were so engrossed in the matter that I didn't want to disturb you.",
+		"message":"Well, you were so engrossed in the matter that I didn't want to disturb you.",
         "replies":[
             {
 			"text":"[Grumble]",
