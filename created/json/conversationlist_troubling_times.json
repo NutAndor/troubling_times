@@ -662,6 +662,23 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":180,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About Seraphina ...",
+				"nextPhraseID":"nanath_190",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":180
                     }
                 ]
             }
@@ -689,8 +706,16 @@
 		"message":"So, that's what Umar is hush-hush about.",
         "replies":[
             {
-                "text":"N",
-				"nextPhraseID":"nanath_181"
+                "text":"He could really be more talkative sometimes.",
+				"nextPhraseID":"nanath_181",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":180,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -894,7 +919,7 @@
 				"nextPhraseID":"umar_return_1"
 			},
 			{
-                "text":"OK, I am looking for Nanath.",
+                "text":"OK, I'll go find Nanath.",
 				"nextPhraseID":"X"
             }
         ]
@@ -1325,6 +1350,7 @@
 	},
     {
         "id":"tt_sly_111",
+		"message":"*** Hint for debug version: Sullengard\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1345,6 +1371,7 @@
 	},
     {
         "id":"tt_sly_112",
+		"message":"*** Hint for debug version: Stoutford\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1365,6 +1392,7 @@
 	},
     {
         "id":"tt_sly_113",
+		"message":"*** Hint for debug version: Loneford\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1385,6 +1413,7 @@
 	},
     {
         "id":"tt_sly_114",
+		"message":"*** Hint for debug version: Prim\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1405,6 +1434,7 @@
 	},
     {
         "id":"tt_sly_115",
+		"message":"*** Hint for debug version: Brimhaven\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1425,6 +1455,7 @@
 	},
     {
         "id":"tt_sly_116",
+		"message":"*** Hint for debug version: Vilegard\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
