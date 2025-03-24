@@ -45,6 +45,10 @@
                 "logText": "Nanath told me Thieves' Guild would give me the 50000 coins back when I got the spell dispelled."
             },
             {
+                "progress": 95,
+                "logText": "Nanath asked if I had found Luthor's ring already."
+            },
+            {
                 "progress": 100,
                 "logText": "I went back to Nanath as I couldn't find Luthor's ring anywhere."
             },
@@ -74,7 +78,7 @@
             },
             {
                 "progress": 160,
-                "logText": "Nanath told me to look for her in her usual hidings: Sullengard, Stoutford, Vilegard, Prim, Loneford or Brimhaven."
+                "logText": "Nanath told me to look for her in her usual hidings: Near one of the towns Sullengard, Stoutford, Vilegard, Prim, Loneford or Brimhaven."
             },
             {
                 "progress": 170,
@@ -138,7 +142,7 @@
             },
             {
                 "progress": 270,
-                "logText": "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She returned to Sutdover bridge. I needed to go to Talion."
+                "logText": "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion."
             },
             {
                 "progress": 280,
@@ -161,6 +165,17 @@
             {
                 "progress": 320,
                 "logText": "Sly Seraphina was friendly to me - for now."
+            }
+        ]
+    },
+    {
+        "id": "troubling_times_nd",
+        "name": "troubling_times_nd",
+        "showInLog": 0,
+        "stages": [
+            {
+                "progress": 10,
+                "logText": "Seraphina search"
             }
         ]
     }

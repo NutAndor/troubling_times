@@ -101,7 +101,7 @@
             },
             {
                 "progress":110,
-                "logText":"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n\n[Quest is not completable at this time.]",
+                "logText":"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.",
                 "rewardExperience":2000
             },
             {
@@ -111,6 +111,10 @@
             {
                 "progress":130,
                 "logText":"Andor was trying to find out about terrible monsters in the hideout near place with larval burrowers, from Seraphina."
+            },
+            {
+                "progress":999,
+                "logText":"\n[Quest is not completable at this time.]"
             }
         ]
     }

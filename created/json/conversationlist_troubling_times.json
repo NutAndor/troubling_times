@@ -53,6 +53,16 @@
                 ]
             },
             {
+                "nextPhraseID":"nanath_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":95
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"nanath_70",
                 "requires":[
                     {
@@ -313,6 +323,34 @@
                         "value":80
                     }
                 ]
+            },
+            {
+                "text":"About Luthor's ring ...",
+				"nextPhraseID":"nanath_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":95
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":105,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I am still looking for Seraphina.",
+				"nextPhraseID":"nanath_140",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":105
+                    }
+                ]
             }
         ]
     },
@@ -377,7 +415,7 @@
     },
     {
         "id":"nanath_86",
-		"message":"Agreed.",
+		"message":"That's fine with me.",
         "replies":[
             {
                 "text":"And - most important - Luthor's ring.",
@@ -512,7 +550,7 @@
     },
     {
         "id":"nanath_110",
-		"message":"And Luthor's ring?",
+		"message":"Have you found Luthor's ring already?",
         "replies":[
             {
                 "text":"I am looking for it now.",
@@ -527,7 +565,7 @@
 				]
             },
             {
-                "text":"I have no idea where to look any more",
+                "text":"I have no idea where to look any more.",
 				"nextPhraseID":"nanath_120",
 				"requires":[
 					{
@@ -536,6 +574,13 @@
 						"value":100
 					}
 				]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times",
+                "value":95
             }
         ]
     },
@@ -600,7 +645,7 @@
     },
     {
         "id":"nanath_136",
-		"message":"Then it's all settled. Go now.",
+		"message":"Then it's all settled. Go and find her, now.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -608,6 +653,10 @@
                 "value":105
             }
         ]
+    },
+    {
+        "id":"nanath_140",
+		"message":"Then go and find her, now."
     },
     {
         "id":"nanath_150",
@@ -645,7 +694,7 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":110
-                    }
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
@@ -725,7 +774,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_182"
+				"nextPhraseID":"nanath_181a"
             }
         ],
         "rewards":[
@@ -733,6 +782,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"troubling_times",
                 "value":150
+            }
+        ]
+    },
+    {
+        "id":"nanath_181a",
+		"message":"She prefers to be close to a town so she can easily stock up.",
+        "replies":[
+            {
+                "text":"Makes sense.",
+				"nextPhraseID":"nanath_182"
             }
         ]
     },
@@ -750,6 +809,30 @@
                 "rewardType":"questProgress",
                 "rewardID":"troubling_times",
                 "value":160
+            }
+        ]
+    },
+    {
+        "id":"nanath_183",
+		"message":"So look for her near one of these towns.",
+        "replies":[
+            {
+                "text":"Makes sense.",
+				"nextPhraseID":"nanath_184"
+            },
+            {
+                "text":"Which towns did you say again?",
+				"nextPhraseID":"nanath_183a"
+            }
+        ]
+    },
+    {
+        "id":"nanath_183a",
+		"message":"Sometimes I could despair. It's so hard to find good workers these days.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"nanath_182"
             }
         ]
     },
@@ -869,7 +952,7 @@
 		"message":"You were obviously successful. We seem to be inconspicuous again.",
         "replies":[
             {
-                "text":"Yes. The search was a nice change.",
+                "text":"N",
 				"nextPhraseID":"nanath_300"
             }
         ]
@@ -879,7 +962,7 @@
 		"message":"Good job! Didn't think you could do it. But you did.",
         "replies":[
             {
-                "text":"N",
+                "text":"Yes. The search was a nice change.",
 				"nextPhraseID":"nanath_302"
             }
         ]
@@ -1287,11 +1370,45 @@
 	},
     {
         "id":"tt_sly_100",
-		"message":"Even Umar's current ask does not move me. Whatever ails the Guild - do find another way.",
+		"message":"Even Umar's current plea will not change my mind. Whatever ails the Guild - do find another solution.",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_110",
 				"text":"What?"
+			},
+			{
+				"nextPhraseID":"tt_sly_110_debugVersion",
+				"text":"What?  (debugVersion, remove befor publish)"
+			}
+		]
+	},
+    {
+        "id":"tt_sly_110_debugVersion",
+		"message":"*** Debug version, remove befor publish ***",
+		"replies":[
+			{
+				"nextPhraseID":"tt_sly_116",
+				"text":"--> Brimhaven"
+			},
+			{
+				"nextPhraseID":"tt_sly_115",
+				"text":"--> Vilegard"
+			},
+			{
+				"nextPhraseID":"tt_sly_114",
+				"text":"--> Prim"
+			},
+			{
+				"nextPhraseID":"tt_sly_113",
+				"text":"--> Loneford"
+			},
+			{
+				"nextPhraseID":"tt_sly_112",
+				"text":"--> Stoutford"
+			},
+			{
+				"nextPhraseID":"tt_sly_111",
+				"text":"--> Sullengard"
 			}
 		]
 	},
@@ -1350,7 +1467,6 @@
 	},
     {
         "id":"tt_sly_111",
-		"message":"*** Hint for debug version: Sullengard\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1371,7 +1487,6 @@
 	},
     {
         "id":"tt_sly_112",
-		"message":"*** Hint for debug version: Stoutford\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1392,7 +1507,6 @@
 	},
     {
         "id":"tt_sly_113",
-		"message":"*** Hint for debug version: Loneford\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1413,7 +1527,6 @@
 	},
     {
         "id":"tt_sly_114",
-		"message":"*** Hint for debug version: Prim\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1444,12 +1557,12 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_seraphina",
-                "mapName":"waytobrimhaven3"
+                "mapName":"waterway6"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
-                "mapName":"waytobrimhaven3"
+                "mapName":"waterway6"
             }
         ]
 	},
@@ -1557,7 +1670,7 @@
             {
                 "rewardType":"deactivateSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"waytobrimhaven3"
+                "mapName":"waterway6"
             },
             {
                 "rewardType":"deactivateSpawnArea",
@@ -1568,7 +1681,7 @@
 	},
     {
         "id":"tt_sly_211",
-		"message":"Smart enough to find me, and tough enough to beat my friends.",
+		"message":"Smart enough to find me, and tough enough to beat my friends. You convinced me that we can do it.",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_212",
@@ -1638,10 +1751,25 @@
 		"message":"Which reminds me: Another kid was looking for information to open it.",
 		"replies":[
 			{
-				"nextPhraseID":"tt_sly_240",
+				"nextPhraseID":"tt_sly_230",
 				"text":"That kid, did he look just like me, but older?"
 			}
 		]
+	},
+    {
+        "id":"tt_sly_230",
+		"replies":[
+			{
+				"nextPhraseID":"tt_sly_240"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"andor",
+                "value":999
+            }
+        ]
 	},
     {
         "id":"tt_sly_240",
@@ -1657,6 +1785,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"andor",
                 "value":130
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":999
             }
         ]
 	},
@@ -1780,12 +1913,12 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_seraphina",
-                "mapName":"waytobrimhaven3"
+                "mapName":"waterway6"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tt_guys",
-                "mapName":"waytobrimhaven3"
+                "mapName":"waterway6"
             },
             {
                 "rewardType":"removeSpawnArea",
@@ -2340,11 +2473,38 @@
         "replies":[
             {
                 "text":"You look terrible.",
-				"nextPhraseID":"tt_sly4_2"
+				"nextPhraseID":"tt_sly4_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":250,
+						"negate":true
+                    }
+                ]
             },
             {
                 "text":"You are severely wounded.",
-				"nextPhraseID":"tt_sly4_10"
+				"nextPhraseID":"tt_sly4_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":250,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You look better now.",
+				"nextPhraseID":"tt_sly4_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":250
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -2365,6 +2525,10 @@
 				"nextPhraseID":"tt_sly4_10"
             }
         ]
+	},
+    {
+        "id":"tt_sly4_4",
+		"message":"Yes, thanks to you. Just give me a few seconds ..."
 	},
     {
         "id":"tt_sly4_10",
@@ -2451,6 +2615,12 @@
                 "text":"Here, have this nice potion. [give her a poison potion]",
 				"nextPhraseID":"tt_sly4_22",
 				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":252,
+						"negate":true
+                    },
 					{
 						"requireType":"inventoryRemove",
 						"requireID":"pot_poison_weak",
@@ -2534,6 +2704,11 @@
 				"nextPhraseID":"tt_sly5_10",
                 "requires":[
                     {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times_nd",
+                        "value":10
+                    },
+                    {
                         "requireType":"timerElapsed",
                         "requireID":"tt_search",
                         "value":8
@@ -2542,9 +2717,50 @@
             },
             {
                 "text":"[Sarcastic] Truly royal.",
-				"nextPhraseID":"X"
+				"nextPhraseID":"tt_sly5_2"
             }
         ]
+ 	},
+    {
+        "id":"tt_sly5_2",
+		"message":"Royal, yes.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"tt_sly5_3"
+            }
+        ]
+ 	},
+    {
+        "id":"tt_sly5_3",
+		"message":"In fact, I am King Luthor's heir. He's my ancestor.",
+        "replies":[
+            {
+                "text":"Really?",
+				"nextPhraseID":"tt_sly5_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times_nd",
+                "value":10
+            }
+        ]
+ 	},
+    {
+        "id":"tt_sly5_4",
+		"message":"How else would I be able to wear his gloves without getting hurt?",
+        "replies":[
+            {
+                "text":"True.",
+				"nextPhraseID":"tt_sly5_6"
+            }
+        ]
+ 	},
+    {
+        "id":"tt_sly5_6",
+		"message":"Nothing to be proud of though. Forget it, child. I should have kept quiet about it."
  	},
     {
         "id":"tt_sly5_10",
@@ -2735,7 +2951,7 @@
         "message":"One of my specials! Just had an opportunity to use it again recently. Went awesome!",
         "replies":[
             {
-                "text":"... Why would you do that? People can get hurt?",
+                "text":"Why did you do that? People can get hurt?",
                 "nextPhraseID":"tt_talion_20"
             }
         ]
