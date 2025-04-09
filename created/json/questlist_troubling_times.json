@@ -157,6 +157,10 @@
                 "logText": "Talion returned Luthor's ring. The other rings were broken in the process though and the Tears of the Shadow potion was used up of course."
             },
             {
+                "progress": 302,
+                "logText": "The room with the dangerous creatures has been locked and sealed again."
+            },
+            {
                 "progress": 310,
                 "logText": "Nanath gave me 75000 coins as a reward for a job well done.",
                 "rewardExperience": 15000,
@@ -176,6 +180,10 @@
             {
                 "progress": 10,
                 "logText": "Seraphina search"
+            },
+            {
+                "progress": 20,
+                "logText": "Crackshot's door unsealed"
             }
         ]
     }
