@@ -981,6 +981,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"troubling_times",
                 "value":302
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"troubling_times_nd",
+                "value":20
             }
         ]
     },
@@ -3034,7 +3039,7 @@
     },
     {
         "id":"tt_talion_20",
-        "message":"Nonsense! How can being more noticeable hurt? It's makes one stand out more, makes one more popular.",
+        "message":"Nonsense! How can being more noticeable hurt? It makes one stand out more, makes one more popular.",
         "replies":[
             {
                 "text":"Not if you want to be a thief or similar.",
