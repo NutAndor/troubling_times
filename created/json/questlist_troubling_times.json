@@ -184,6 +184,10 @@
             {
                 "progress": 20,
                 "logText": "Crackshot's door unsealed"
+            },
+            {
+                "progress": 30,
+                "logText": "1=standing north of Sly while she blocks the passage"
             }
         ]
     }
