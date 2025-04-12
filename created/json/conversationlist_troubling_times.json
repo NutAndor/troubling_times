@@ -1420,11 +1420,11 @@
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_116",
-				"text":"--> Brimhaven"
+				"text":"--> Vilegard"
 			},
 			{
 				"nextPhraseID":"tt_sly_115",
-				"text":"--> Vilegard"
+				"text":"--> Brimhaven"
 			},
 			{
 				"nextPhraseID":"tt_sly_114",
@@ -1579,7 +1579,6 @@
 	},
     {
         "id":"tt_sly_115",
-		"message":"*** Hint for debug version: Brimhaven\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
@@ -1600,7 +1599,6 @@
 	},
     {
         "id":"tt_sly_116",
-		"message":"*** Hint for debug version: Vilegard\n*** Press Next",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_120"
