@@ -170,7 +170,7 @@
     },
     {
         "id":"nanath_20",
-		"message":"Hi there. I am Nanath. No need to introduce yourself, I know who you are, $playername.",
+		"message":"Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername.",
         "replies":[
             {
                 "text":"Oh. Hi Nanath. You look scared.",
@@ -302,13 +302,13 @@
 		"message":"Oh, back again? I hope you bring good news.",
         "replies":[
             {
-                "text":"Talion, Shadow priest, has put it on us after all - the Striking Spectacle Shadow spell.",
+                "text":"Maybe. Talion, Shadow priest, has put the Striking Spectacle Shadow spell on us.",
 				"nextPhraseID":"nanath_72",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
-                        "value":80,
+                        "value":82,
 						"negate":true
                     }
                 ]
@@ -320,7 +320,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
-                        "value":80
+                        "value":82
                     }
                 ]
             },
@@ -420,6 +420,13 @@
             {
                 "text":"And - most important - Luthor's ring.",
 				"nextPhraseID":"nanath_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times",
+                "value":82
             }
         ]
     },
