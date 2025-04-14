@@ -23,6 +23,22 @@
                 ]
             },
             {
+                "nextPhraseID":"umar_tt_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":115
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":120,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"umar_tt",
                 "requires":[
                     {

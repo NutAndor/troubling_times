@@ -1,0 +1,33 @@
+[
+    {
+        "id":"fanamor_guild_10",
+        "message":"Hello, friend! Thank you for all you've done for me.",
+        "replies":[
+            {
+                "text":"It was nothing. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It's my job. Nice to see you survived those anklebiters ...",
+                "nextPhraseID":"X"
+            },
+			{
+				"text":"Hmm, maybe you can help me?",
+				"nextPhraseID":"fanamor_tt",
+                "requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"troubling_times",
+						"value":150
+					},
+                    {
+						"requireType":"questProgress",
+						"requireID":"troubling_times",
+						"value":180,
+						"negate":true
+                    }
+                ]
+			}
+        ]
+    }
+]

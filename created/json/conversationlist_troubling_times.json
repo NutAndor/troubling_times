@@ -1,5 +1,329 @@
 [
     {
+        "id":"fanamor_tt",
+        "message":"Sure. I heard you're looking for Sly Seraphina.",
+        "replies":[
+            {
+                "text":"Eavesdropping is not nice.",
+                "nextPhraseID":"fanamor_tt_10"
+            },
+            {
+                "text":"Yes. Do you have any idea where she might be hiding?",
+                "nextPhraseID":"fanamor_tt_20"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_10",
+        "message":"We are thieves - already forgotten?",
+        "replies":[
+            {
+                "text":"So can you help me?",
+                "nextPhraseID":"fanamor_tt_20"
+            },
+            {
+                "text":"Nevertheless, one can still maintain one's good manners.",
+                "nextPhraseID":"fanamor_tt_12"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_12",
+        "message":"Phh."
+    },
+    {
+        "id":"fanamor_tt_20",
+        "message":"Of course. In fact, I know exactly where she's hiding right now.",
+        "replies":[
+            {
+                "text":"Great. That wll save me a lot of running around.",
+                "nextPhraseID":"fanamor_tt_22"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_22",
+        "message":"Here's how we do it: You can guess, and I'll tell you whether it's true or not.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fanamor_tt_24"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_24",
+        "message":"And each tip only costs you 100 gold pieces.",
+        "replies":[
+            {
+                "text":"I should have known.",
+                "nextPhraseID":"fanamor_tt_26"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_26",
+        "message":"You already know that she is near a town.",
+        "replies":[
+            {
+                "text":"But which one?",
+                "nextPhraseID":"fanamor_tt_30"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_30",
+        "message":"Guess!",
+        "replies":[
+			{
+				"text":"Vilegard?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":6
+                    }
+                ]
+			},
+			{
+				"text":"Vilegard?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":6,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Brimhaven?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":5
+                    }
+                ]
+			},
+			{
+				"text":"Brimhaven?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":5,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Prim?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":4
+                    }
+                ]
+			},
+			{
+				"text":"Prim?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":4,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Loneford?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":3
+                    }
+                ]
+			},
+			{
+				"text":"Loneford?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":3,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Stoutford?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":2
+                    }
+                ]
+			},
+			{
+				"text":"Stoutford?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":2,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Sullengard?",
+				"nextPhraseID":"fanamor_tt_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":1
+                    }
+                ]
+			},
+			{
+				"text":"Sullengard?",
+				"nextPhraseID":"fanamor_tt_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_hide",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+			},
+			{
+				"text":"Oh, I'm running out of gold.",
+				"nextPhraseID":"fanamor_tt_34",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":100,
+						"negate":true
+                    }
+                ]
+			},
+            {
+                "text":"Enough. I think you don't know yourself.",
+                "nextPhraseID":"fanamor_tt_32"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_32",
+        "message":"You are so smart. I'm sorry I tried."
+    },
+    {
+        "id":"fanamor_tt_34",
+        "message":"No problem. I can wait."
+    },
+    {
+        "id":"fanamor_tt_40",
+        "message":"Hey, that's right!",
+        "replies":[
+            {
+                "text":"Thank you for your help.",
+                "nextPhraseID":"fanamor_tt_60"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_50",
+        "message":"Nope - 100 gold. Try again ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fanamor_tt_30"
+            }
+        ]
+    },
+    {
+        "id":"fanamor_tt_60",
+        "message":"Thanks for the gold. But don't tell her that I betrayed her."
+    },
+    {
         "id":"nanath",
         "replies":[
             {
@@ -421,13 +745,6 @@
                 "text":"And - most important - Luthor's ring.",
 				"nextPhraseID":"nanath_90"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"troubling_times",
-                "value":82
-            }
         ]
     },
     {
@@ -437,6 +754,13 @@
             {
                 "text":"N",
 				"nextPhraseID":"nanath_92"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times",
+                "value":82
             }
         ]
     },
@@ -603,10 +927,10 @@
     },
     {
         "id":"nanath_122",
-		"message":"Then ... only one person may know: Sly Seraphina.",
+		"message":"Then ... only one person may know: Fanamor's friend Sly Seraphina.",
         "replies":[
             {
-                "text":"Where can she be found?",
+                "text":"Sly Seraphina? Where can she be found?",
 				"nextPhraseID":"nanath_130",
                 "requires":[
                     {
@@ -618,7 +942,7 @@
                 ]
             },
             {
-                "text":"On no! Not her! I refuse to talk to her.",
+                "text":"On no! Not Seraphina! I refuse to talk to her.",
 				"nextPhraseID":"nanath_132",
                 "requires":[
                     {
@@ -742,10 +1066,10 @@
     },
     {
         "id":"nanath_170",
-		"message":"She must. Tell her this password [whispering something]. It means you have direct order from Umar. Let no one else hear it.",
+		"message":"She must. Go to Umar. He's the only one she'll listen to.",
         "replies":[
             {
-                "text":"OK, that will help.",
+                "text":"OK.",
 				"nextPhraseID":"X"
             }
         ],
@@ -753,7 +1077,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"troubling_times",
-                "value":120
+                "value":115
             }
         ]
     },
@@ -906,7 +1230,17 @@
     },
     {
         "id":"nanath_192",
-		"message":"I already thought so and asked it from Umar. Here you have it, handle it carefully.",
+		"message":"I spoke to Umar. He already suspected that you would need this key.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"nanath_192a"
+            }
+        ]
+    },
+    {
+        "id":"nanath_192a",
+		"message":"Here you have it, handle it carefully.",
         "replies":[
             {
                 "text":"Of course.",
@@ -1045,6 +1379,112 @@
 				"nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"umar_tt_100",
+		"message":"$playername, didn't I make it clear that I didn't want to be disturbed?",
+        "replies":[
+            {
+                "text":"Yes, I'm sorry too. But we need your help.",
+				"nextPhraseID":"umar_tt_102"
+            }
+        ]
+    },
+    {
+        "id":"umar_tt_102",
+		"message":"Tu quoque, mi fili? Sigh.",
+        "replies":[
+            {
+                "text":"To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate.",
+				"nextPhraseID":"umar_tt_110"
+            }
+        ]
+    },
+    {
+        "id":"umar_tt_110",
+		"message":"She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it.",
+        "replies":[
+            {
+                "text":"OK. She will listen to you.",
+				"nextPhraseID":"umar_tt_120"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"troubling_times",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"umar_tt_120",
+		"message":"My head is so full. I can hardly concentrate on the important things.",
+        "replies":[
+            {
+                "text":"I won't bother you any further.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"The spell will be broken.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"Thoroughness is the key to success.",
+				"nextPhraseID":"umar_tt_130"
+            }
+        ]
+    },
+    {
+        "id":"umar_tt_130",
+		"message":"Key? To success? Don't talk nonsense.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"umar_tt_132"
+            }
+        ]
+    },
+    {
+        "id":"umar_tt_132",
+		"message":"There's something else I should think about. But it just doesn't occur to me right now.",
+        "replies":[
+            {
+                "text":"I better leave you alone now.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"I'm sure you'll remember it again.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"OK. Bye.",
+				"nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"tt_guild03_hideout3_lock",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_hideout3_lock",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":210,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"t_guild03_hideout3_lock_10"
+            }
+        ]
+    },
+    {
+        "id":"t_guild03_hideout3_lock_10",
+		"message":"The lock is sealed again."
     },
     {
         "id":"tt_jolnor_10",
@@ -1205,7 +1645,7 @@
 	},
     {
         "id":"tt_sly_54",
-		"message":"All right. Umar wants me to give you Luthor's ring? And unleash evil on the Dhayavar?",
+		"message":"All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_56",
@@ -1417,13 +1857,13 @@
 			},
 			{
 				"nextPhraseID":"tt_sly_110_debugVersion",
-				"text":"What?  (debugVersion, remove befor publish)"
+				"text":"What?  (debugVersion, remove before publish)"
 			}
 		]
 	},
     {
         "id":"tt_sly_110_debugVersion",
-		"message":"*** Debug version, remove befor publish ***",
+		"message":"*** Debug version, remove before publish ***",
 		"replies":[
 			{
 				"nextPhraseID":"tt_sly_116",
@@ -1521,6 +1961,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"sullengard3"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":1
             }
         ]
 	},
@@ -1541,6 +1986,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"wild21"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":2
             }
         ]
 	},
@@ -1561,6 +2011,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"waytobrimhaven1"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":3
             }
         ]
 	},
@@ -1581,6 +2036,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"blackwater_mountain12"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":4
             }
         ]
 	},
@@ -1601,6 +2061,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"waterway6"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":5
             }
         ]
 	},
@@ -1621,6 +2086,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tt_guys",
                 "mapName":"vilegard_s"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"tt_hide",
+                "value":6
             }
         ]
 	},
@@ -2924,7 +3394,7 @@
  	},
     {
         "id":"tt_sly5_30",
-		"message":"There, catch the ring! Keep it safe and bring it to Talion. I'm off.",
+		"message":"Here, catch the ring! Keep it safe and bring it to Talion. I'm off.",
         "replies":[
             {
 			"text":"Wait ...",

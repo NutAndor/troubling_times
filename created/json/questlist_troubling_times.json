@@ -65,8 +65,12 @@
                 "logText": "Seraphina didn't believe me. She told me to go away."
             },
             {
+                "progress": 115,
+                "logText": "Nanath sent me to Umar. He should make sure Sly carries out the order."
+            },
+            {
                 "progress": 120,
-                "logText": "Nanath told me one of Umar's secret passwords to convince Seraphina."
+                "logText": "Umar told me one of his secret passwords to convince Seraphina."
             },
             {
                 "progress": 130,
@@ -126,7 +130,7 @@
             },
             {
                 "progress": 240,
-                "logText": "I killed all three monsters in the cave."
+                "logText": "I have killed the monsters blocking the entrance."
             },
             {
                 "progress": 250,
@@ -154,7 +158,7 @@
             },
             {
                 "progress": 290,
-                "logText": "Talion used them to undo the Spell."
+                "logText": "Talion used them to undo the spell."
             },
             {
                 "progress": 300,
