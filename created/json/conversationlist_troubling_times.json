@@ -1854,40 +1854,6 @@
 			{
 				"nextPhraseID":"tt_sly_110",
 				"text":"What?"
-			},
-			{
-				"nextPhraseID":"tt_sly_110_debugVersion",
-				"text":"What?  (debugVersion, remove before publish)"
-			}
-		]
-	},
-    {
-        "id":"tt_sly_110_debugVersion",
-		"message":"*** Debug version, remove before publish ***",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_116",
-				"text":"--> Vilegard"
-			},
-			{
-				"nextPhraseID":"tt_sly_115",
-				"text":"--> Brimhaven"
-			},
-			{
-				"nextPhraseID":"tt_sly_114",
-				"text":"--> Prim"
-			},
-			{
-				"nextPhraseID":"tt_sly_113",
-				"text":"--> Loneford"
-			},
-			{
-				"nextPhraseID":"tt_sly_112",
-				"text":"--> Stoutford"
-			},
-			{
-				"nextPhraseID":"tt_sly_111",
-				"text":"--> Sullengard"
 			}
 		]
 	},
@@ -2112,6 +2078,11 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"thief_seraphina",
+                "mapName":"lake_shore_road_9"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"thief_seraphina_spawn",
                 "mapName":"lake_shore_road_9"
             }
         ]
@@ -2584,15 +2555,7 @@
         "id":"tt_sly_attack0",
 		"replies":[
 			{
-				"nextPhraseID":"tt_sly_attack0b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"troubling_times",
-                        "value":220,
-						"negate":true
-                    }
-                ]
+				"nextPhraseID":"tt_sly_attack0a"
 			}
 		],
         "rewards":[
@@ -2607,6 +2570,22 @@
                 "value":30
             }
         ]
+	},
+    {
+        "id":"tt_sly_attack0a",
+		"replies":[
+			{
+				"nextPhraseID":"tt_sly_attack0b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":220,
+						"negate":true
+                    }
+                ]
+			}
+		]
 	},
     {
         "id":"tt_sly_attack0b",
@@ -2628,6 +2607,16 @@
     {
         "id":"tt_sly_attack1",
         "replies":[
+            {
+                "nextPhraseID":"tt_sly_attack1_1",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"tt_sly_attack1",
+                        "value":1
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"tt_sly_attack1_10",
                 "requires":[
@@ -2674,6 +2663,16 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"tt_sly_attack1",
                 "value":1
+            }
+        ]
+	},
+    {
+        "id":"tt_sly_attack1_1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tt_seraphina3",
+                "mapName":"crackshot_hideout4"
             }
         ]
 	},

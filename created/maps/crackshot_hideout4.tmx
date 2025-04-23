@@ -187,7 +187,7 @@
  </layer>
  <layer id="16" name="Objects" width="19" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+YOdnYLgjwMBwiglCI4N4NlQ+LnXIZr2BqgHR/5gg4u2CDAz5bBAaBP4xoarTA9LJTAhz/kPZfwRQaQZmBoY2oBlhLBAaxMem7i+SWdhACZJ8Ggt+tZZIan8KIklA7RYRZMAK4OLMCLEbfKhqWtDcWcqK3y3I4AWSWfEk6AOBFDR7kd2Vj8WsZALhictdMLAUj35NLHKLcaj/hMVsYsB3NH02UPP/k+AvEAClK1sgZuJHFWfhx64eG5iCZucVIv20gwmVxgauYjELPY3hAw6CiPR+Ccmsx2IINrL7t6KZjawuQBC3uu1A/ilWBEaXR1aHDHCpG0wAABxoNaw=
+   eJxjYKA+YOdnYLgjwMBwiglCI4N4NlQ+LnXIZr2BqgHR/5gg4u2CDAz5bBAaBP4xoarTA9LJTAhz/kPZfwRQaQZmBoY2oBlhLBAaxMem7i+SWdhACZJ8Ggt+tZZIan8KIklA7RYRZMAK4OLMCLEbfKhqWtDcWcqK3y3I4AWSWfEk6AOBFDR7kd2Vj8WsZALhictdMLAUj35NLHKLcaj/hMVsYsB3NH02UPP/k+AvEAClK1sgZuJHFWfhx66+TBCVBoEpaHZeIdJPO5hQaWzgKhaz0NMYPuAgiEjvl5DMeiyGYCO7fyua2cjqAgRxq9sO5J9iRWB0eWR1yACXusEEACeENro=
   </data>
  </layer>
  <layer id="17" name="Above" width="19" height="19">
@@ -202,7 +202,7 @@
  </layer>
  <layer id="7" name="Walkable" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGEYBDAxydWHTJA5+MC2PShm4dsFz4z0PVgcxc5AFs4DEazyDGTmLQxWMyiFBBrFqH0Rg2zcKVVfGkcPc8RYxah/EWMOnLKEGqWR7gwAP8Uq3M=
+   eJy7KMbAcHGEYBDAxydWHTJA5+MC2PShm4dsFz4z0PVgcxc5AFs4DEazyDGTmLQxWMwipB6ZJmTmQJuFK63iS+PoeY4YswjlL2LUkVOGULM8woUBfkStQQ==
   </data>
  </layer>
  <objectgroup id="19" name="Mapevents">
@@ -213,22 +213,22 @@
    </properties>
   </object>
   <object id="33" name="tt_sly_attack0" type="script" x="288" y="544" width="32" height="32"/>
-  <object id="34" name="tt_sly_attack1" type="script" x="288" y="512" width="32" height="32">
+  <object id="34" name="tt_sly_attack1" type="script" x="288" y="480" width="32" height="32">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="35" name="tt_sly_attack2" type="script" x="288" y="480" width="32" height="32">
+  <object id="35" name="tt_sly_attack2" type="script" x="288" y="448" width="32" height="32">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="36" name="tt_sly_attack3" type="script" x="288" y="448" width="32" height="32">
+  <object id="36" name="tt_sly_attack3" type="script" x="288" y="416" width="32" height="32">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="21" name="tt_sly_attack4" type="script" x="256" y="384" width="96" height="32"/>
+  <object id="21" name="tt_sly_attack4" type="script" x="256" y="352" width="96" height="32"/>
   <object id="28" name="tt_loot1" type="container" x="96" y="512" width="32" height="32"/>
   <object id="29" name="tt_loot2" type="container" x="128" y="512" width="32" height="32"/>
   <object id="30" name="tt_loot3" type="container" x="160" y="512" width="32" height="32"/>
@@ -236,13 +236,13 @@
   <object id="48" name="passby" type="mapchange" x="288" y="480" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="20" name="Spawn">
-  <object id="37" name="tt_seraphina3" type="spawn" x="288" y="416" width="32" height="96">
+  <object id="37" name="tt_seraphina3" type="spawn" x="288" y="384" width="32" height="96">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="tt_seraphina3"/>
    </properties>
   </object>
-  <object id="38" name="tt_seraphina3b" type="spawn" x="288" y="480" width="32" height="32">
+  <object id="38" name="tt_seraphina3b" type="spawn" x="288" y="448" width="32" height="32">
    <properties>
     <property name="spawngroup" value="tt_seraphina3b"/>
    </properties>
@@ -260,19 +260,19 @@
     <property name="spawngroup" value="tt_seraphina5"/>
    </properties>
   </object>
-  <object id="41" name="tt_monster1" type="spawn" x="288" y="448" width="32" height="32">
+  <object id="41" name="tt_monster1" type="spawn" x="288" y="416" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="tt_monster1"/>
    </properties>
   </object>
-  <object id="42" name="tt_monster2" type="spawn" x="288" y="416" width="32" height="32">
+  <object id="42" name="tt_monster2" type="spawn" x="288" y="384" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="tt_monster2"/>
    </properties>
   </object>
-  <object id="43" name="tt_monster3" type="spawn" x="256" y="384" width="96" height="32">
+  <object id="43" name="tt_monster3" type="spawn" x="256" y="352" width="96" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
@@ -299,7 +299,7 @@
   </object>
  </objectgroup>
  <objectgroup id="21" name="Keys">
-  <object id="47" name="tt_sly4_key" type="key" x="256" y="384" width="96" height="32">
+  <object id="47" name="tt_sly4_key" type="key" x="256" y="352" width="96" height="32">
    <properties>
     <property name="phrase" value="tt_sly4_key"/>
     <property name="requireId" value="troubling_times"/>
