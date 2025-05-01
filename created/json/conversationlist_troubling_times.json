@@ -846,7 +846,7 @@
     },
     {
         "id":"nanath_94",
-		"message":"Well, then go and find these thing. Hurry now!"
+		"message":"Well, then go and find it. Hurry now!"
     },
     {
         "id":"nanath_100",
@@ -1392,7 +1392,7 @@
     },
     {
         "id":"umar_tt_102",
-		"message":"Tu quoque, mi fili? Sigh.",
+		"message":"[Muttering to himself] Tu quoque, mi fili? Sigh.",
         "replies":[
             {
                 "text":"To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate.",
@@ -3193,7 +3193,7 @@
 		"message":"Ahh, that's good. Thank you, kid ... $playername.",
         "replies":[
             {
-                "text":"[Embarressed] Sure thing.",
+                "text":"[Embarrassed] Sure thing.",
 				"nextPhraseID":"tt_sly4_30"
             }
         ],
@@ -3316,7 +3316,7 @@
  	},
     {
         "id":"tt_sly5_8",
-		"message":"So you've been to King Luthar's tomb. Yes, we have ... borrowed ... his throne.",
+		"message":"So you've been to King Luthor's tomb. Yes, we have ... borrowed ... his throne.",
         "replies":[
             {
                 "text":"Oh.",
@@ -3550,7 +3550,7 @@
     },
     {
         "id":"tt_talion_20",
-        "message":"Nonsense! How can being more noticeable hurt? It makes one stand out more, makes one more popular.",
+        "message":"Nonsense! How can it hurt to be more noticeable? It makes one stand out more, makes one more popular.",
         "replies":[
             {
                 "text":"Not if you want to be a thief or similar.",
