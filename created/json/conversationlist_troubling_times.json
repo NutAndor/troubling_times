@@ -75,9 +75,9 @@
         "id":"fanamor_tt_30",
         "message":"Guess!",
         "replies":[
-			{
-				"text":"Vilegard?",
-				"nextPhraseID":"fanamor_tt_40",
+            {
+                "text":"Vilegard?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -90,10 +90,10 @@
                         "value":6
                     }
                 ]
-			},
-			{
-				"text":"Vilegard?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Vilegard?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -104,13 +104,13 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":6,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Brimhaven?",
-				"nextPhraseID":"fanamor_tt_40",
+            },
+            {
+                "text":"Brimhaven?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -123,10 +123,10 @@
                         "value":5
                     }
                 ]
-			},
-			{
-				"text":"Brimhaven?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Brimhaven?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -137,13 +137,13 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":5,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Prim?",
-				"nextPhraseID":"fanamor_tt_40",
+            },
+            {
+                "text":"Prim?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -156,10 +156,10 @@
                         "value":4
                     }
                 ]
-			},
-			{
-				"text":"Prim?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Prim?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -170,13 +170,13 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":4,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Loneford?",
-				"nextPhraseID":"fanamor_tt_40",
+            },
+            {
+                "text":"Loneford?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -189,10 +189,10 @@
                         "value":3
                     }
                 ]
-			},
-			{
-				"text":"Loneford?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Loneford?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -203,13 +203,13 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":3,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Stoutford?",
-				"nextPhraseID":"fanamor_tt_40",
+            },
+            {
+                "text":"Stoutford?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -222,10 +222,10 @@
                         "value":2
                     }
                 ]
-			},
-			{
-				"text":"Stoutford?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Stoutford?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -236,13 +236,13 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":2,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Sullengard?",
-				"nextPhraseID":"fanamor_tt_40",
+            },
+            {
+                "text":"Sullengard?",
+                "nextPhraseID":"fanamor_tt_40",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -255,10 +255,10 @@
                         "value":1
                     }
                 ]
-			},
-			{
-				"text":"Sullengard?",
-				"nextPhraseID":"fanamor_tt_50",
+            },
+            {
+                "text":"Sullengard?",
+                "nextPhraseID":"fanamor_tt_50",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -269,22 +269,22 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"tt_hide",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"text":"Oh, I'm running out of gold.",
-				"nextPhraseID":"fanamor_tt_34",
+            },
+            {
+                "text":"Oh, I'm running out of gold.",
+                "nextPhraseID":"fanamor_tt_34",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":100,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
+            },
             {
                 "text":"Enough. I think you don't know yourself.",
                 "nextPhraseID":"fanamor_tt_32"
@@ -438,7 +438,7 @@
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":70,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -446,11 +446,11 @@
     },
     {
         "id":"nanath_10",
-		"message":"Hello You? How dare you show your face?",
+        "message":"Hello You? How dare you show your face?",
         "replies":[
             {
                 "text":"Why?",
-				"nextPhraseID":"nanath_18"
+                "nextPhraseID":"nanath_18"
             }
         ],
         "rewards":[
@@ -468,11 +468,11 @@
     },
     {
         "id":"nanath_12",
-		"message":"Hello You? How dare you show your face?",
+        "message":"Hello You? How dare you show your face?",
         "replies":[
             {
                 "text":"Why?",
-				"nextPhraseID":"nanath_18"
+                "nextPhraseID":"nanath_18"
             }
         ],
         "rewards":[
@@ -490,65 +490,65 @@
     },
     {
         "id":"nanath_18",
-		"message":"You betrayed the Guild over the task with Defy. Get out!"
+        "message":"You betrayed the Guild over the task with Defy. Get out!"
     },
     {
         "id":"nanath_20",
-		"message":"Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername.",
+        "message":"Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername.",
         "replies":[
             {
                 "text":"Oh. Hi Nanath. You look scared.",
-				"nextPhraseID":"nanath_22"
+                "nextPhraseID":"nanath_22"
             }
         ]
     },
     {
         "id":"nanath_22",
-		"message":"Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us.",
+        "message":"Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us.",
         "replies":[
             {
                 "text":"So?",
-				"nextPhraseID":"nanath_24"
+                "nextPhraseID":"nanath_24"
             }
         ]
     },
     {
         "id":"nanath_24",
-		"message":"It makes us noticeable, and thus vulnerable to being caught - paralyzing our honest bread and butter work.",
+        "message":"It makes us noticeable, and thus vulnerable to being caught - paralyzing our honest bread and butter work.",
         "replies":[
             {
                 "text":"Oh. Sounds awful.",
-				"nextPhraseID":"nanath_26"
+                "nextPhraseID":"nanath_26"
             }
         ]
     },
     {
         "id":"nanath_26",
-		"message":"Umar wants me to handle it. He wants me to get it dispelled, so that Thieves' Guild can work again.",
+        "message":"Umar wants me to handle it. He wants me to get it dispelled, so that the Thieves' Guild can work again.",
         "replies":[
             {
                 "text":"Ah, OK then.",
-				"nextPhraseID":"nanath_28"
+                "nextPhraseID":"nanath_28"
             }
         ]
     },
     {
         "id":"nanath_28",
-		"message":"The thing is I don't know much about the Shadow or any other so-called powers. My life has been being an honest thief, a score here, a score there - I don't tangle with the supernatural stuff.",
+        "message":"The thing is I don't know much about the Shadow or any other so-called powers. My life has been being an honest thief, a score here, a score there - I don't tangle with the supernatural stuff.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_30"
+                "nextPhraseID":"nanath_30"
             }
         ]
     },
     {
         "id":"nanath_30",
-		"message":"Can't anyone help?",
+        "message":"Can't anyone help?",
         "replies":[
             {
                 "text":"I can help. I've had some dealings with the Shadow.",
-				"nextPhraseID":"nanath_32"
+                "nextPhraseID":"nanath_32"
             }
         ],
         "rewards":[
@@ -566,51 +566,51 @@
     },
     {
         "id":"nanath_32",
-		"message":"Really? Like what?",
+        "message":"Really? Like what?",
         "replies":[
             {
                 "text":"Sorry, hush-hush stuff around Loneford and Vilegard.",
-				"nextPhraseID":"nanath_34"
+                "nextPhraseID":"nanath_34"
             }
         ]
     },
     {
         "id":"nanath_34",
-		"message":"Of course.",
+        "message":"Of course.",
         "replies":[
             {
                 "text":"You want my help?",
-				"nextPhraseID":"nanath_40"
+                "nextPhraseID":"nanath_40"
             }
         ]
     },
     {
         "id":"nanath_40",
-		"message":"First things first, how can we know the nature of the spell?",
+        "message":"First things first, how can we know the nature of the spell?",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_42"
+                "nextPhraseID":"nanath_42"
             }
         ]
     },
     {
         "id":"nanath_42",
-		"message":"Or its name?",
+        "message":"Or its name?",
         "replies":[
             {
                 "text":"Hmm ...",
-				"nextPhraseID":"nanath_44"
+                "nextPhraseID":"nanath_44"
             }
         ]
     },
     {
         "id":"nanath_44",
-		"message":"Maybe talking to a Shadow priest may help?",
+        "message":"Maybe talking to a Shadow priest may help?",
         "replies":[
             {
                 "text":"I'll see what I can do.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -623,23 +623,23 @@
     },
     {
         "id":"nanath_70",
-		"message":"Oh, back again? I hope you bring good news.",
+        "message":"Oh, back again? I hope you bring good news.",
         "replies":[
             {
                 "text":"Maybe. Talion, Shadow priest, has put the Striking Spectacle Shadow spell on us.",
-				"nextPhraseID":"nanath_72",
+                "nextPhraseID":"nanath_72",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":82,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I have been looking for the things for Talion.",
-				"nextPhraseID":"nanath_92",
+                "nextPhraseID":"nanath_92",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -650,7 +650,7 @@
             },
             {
                 "text":"About Luthor's ring ...",
-				"nextPhraseID":"nanath_110",
+                "nextPhraseID":"nanath_110",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -661,13 +661,13 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":105,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I am still looking for Seraphina.",
-				"nextPhraseID":"nanath_140",
+                "nextPhraseID":"nanath_140",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -680,80 +680,80 @@
     },
     {
         "id":"nanath_72",
-		"message":"And?",
+        "message":"And?",
         "replies":[
             {
                 "text":"And ... I think I have to talk to Talion again.",
-				"nextPhraseID":"nanath_80",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":80,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"nanath_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Talion said, he can help dispel it.",
-				"nextPhraseID":"nanath_80",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":80
-					}
-				]
+                "nextPhraseID":"nanath_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":80
+                    }
+                ]
             }
         ]
     },
     {
         "id":"nanath_80",
-		"message":"What a relief.",
+        "message":"What a relief.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_82"
+                "nextPhraseID":"nanath_82"
             }
         ]
     },
     {
         "id":"nanath_82",
-		"message":"What does he want in return?",
+        "message":"What does he want in return?",
         "replies":[
             {
                 "text":"Lady Dameni paid him. Talion wants 50000 coins to dispel us.",
-				"nextPhraseID":"nanath_84"
+                "nextPhraseID":"nanath_84"
             }
         ]
     },
     {
         "id":"nanath_84",
-		"message":"That's a lot, but it was to be expected. It's good that he doesn't want more.",
+        "message":"That's a lot, but it was to be expected. It's good that he doesn't want more.",
         "replies":[
             {
                 "text":"Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the ring of backstabbing and the Tears of the Shadow potion.",
-				"nextPhraseID":"nanath_86"
+                "nextPhraseID":"nanath_86"
             }
         ]
     },
     {
         "id":"nanath_86",
-		"message":"That's fine with me.",
+        "message":"That's fine with me.",
         "replies":[
             {
                 "text":"And - most important - Luthor's ring.",
-				"nextPhraseID":"nanath_90"
+                "nextPhraseID":"nanath_90"
             }
         ]
     },
     {
         "id":"nanath_90",
-		"message":"What?! He must be crazy!",
+        "message":"What?! He must be crazy!",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_92"
+                "nextPhraseID":"nanath_92"
             }
         ],
         "rewards":[
@@ -766,109 +766,109 @@
     },
     {
         "id":"nanath_92",
-		"message":"Do you have all of the items already?",
+        "message":"Do you have all of the items already?",
         "replies":[
             {
                 "text":"I don't have Troublemaker's ring yet.",
-				"nextPhraseID":"nanath_94",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_troublemaker",
-						"value":1,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"nanath_94",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_troublemaker",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I don't have the ring of backstabbing yet.",
-				"nextPhraseID":"nanath_94",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_backstab",
-						"value":1,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"nanath_94",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_backstab",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I don't have the Villain's ring yet.",
-				"nextPhraseID":"nanath_94",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_villain",
-						"value":1,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"nanath_94",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_villain",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I don't have the Tears of the Shadow yet.",
-				"nextPhraseID":"nanath_94",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"pot_shadowtear",
-						"value":1,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"nanath_94",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_shadowtear",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I have bought the 4 easier things already.",
-				"nextPhraseID":"nanath_100",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_troublemaker",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_backstab",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_villain",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"pot_shadowtear",
-						"value":1
-					}
-				]
+                "nextPhraseID":"nanath_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_troublemaker",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_backstab",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_villain",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_shadowtear",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
     {
         "id":"nanath_94",
-		"message":"Well, then go and find it. Hurry now!"
+        "message":"Well, then go and find it. Hurry now!"
     },
     {
         "id":"nanath_100",
-		"message":"Good, that's a start.",
+        "message":"Good, that's a start.",
         "replies":[
             {
                 "text":"I expect to be reimbursed of course.",
-				"nextPhraseID":"nanath_102"
+                "nextPhraseID":"nanath_102"
             },
             {
                 "text":"I am glad you approve.",
-				"nextPhraseID":"nanath_102"
+                "nextPhraseID":"nanath_102"
             }
         ]
     },
     {
         "id":"nanath_102",
-		"message":"Umar will refund - only if you succeed.",
+        "message":"Umar will refund - only if you succeed.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_110"
+                "nextPhraseID":"nanath_110"
             }
         ],
         "rewards":[
@@ -881,30 +881,30 @@
     },
     {
         "id":"nanath_110",
-		"message":"Have you found Luthor's ring already?",
+        "message":"Have you found Luthor's ring already?",
         "replies":[
             {
                 "text":"I am looking for it now.",
-				"nextPhraseID":"X",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":100,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I have no idea where to look any more.",
-				"nextPhraseID":"nanath_120",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":100
-					}
-				]
+                "nextPhraseID":"nanath_120",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":100
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -917,33 +917,33 @@
     },
     {
         "id":"nanath_120",
-		"message":"Looks like it ended up being kept somewhere dangerous.",
+        "message":"Looks like it ended up being kept somewhere dangerous.",
         "replies":[
             {
                 "text":"Seems so.",
-				"nextPhraseID":"nanath_122"
+                "nextPhraseID":"nanath_122"
             }
         ]
     },
     {
         "id":"nanath_122",
-		"message":"Then ... only one person may know: Fanamor's friend Sly Seraphina.",
+        "message":"Then ... only one person may know: Fanamor's friend Sly Seraphina.",
         "replies":[
             {
                 "text":"Sly Seraphina? Where can she be found?",
-				"nextPhraseID":"nanath_130",
+                "nextPhraseID":"nanath_130",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"sullengard_hidden",
                         "value":38,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"On no! Not Seraphina! I refuse to talk to her.",
-				"nextPhraseID":"nanath_132",
+                "nextPhraseID":"nanath_132",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -956,27 +956,27 @@
     },
     {
         "id":"nanath_130",
-		"message":"She's the thief near the Sutdover bridge.",
+        "message":"She's the thief near the Sutdover bridge.",
         "replies":[
             {
                 "text":"Sutdover bridge? So I'll look for her to the south.",
-				"nextPhraseID":"nanath_136"
+                "nextPhraseID":"nanath_136"
             }
         ]
     },
     {
         "id":"nanath_132",
-		"message":"You must. For the Guild!",
+        "message":"You must. For the Guild!",
         "replies":[
             {
                 "text":"All right, I hate to, but for the greater good I'll go.",
-				"nextPhraseID":"nanath_136"
+                "nextPhraseID":"nanath_136"
             }
         ]
     },
     {
         "id":"nanath_136",
-		"message":"Then it's all settled. Go and find her, now.",
+        "message":"Then it's all settled. Go and find her, now.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -987,39 +987,39 @@
     },
     {
         "id":"nanath_140",
-		"message":"Then go and find her, now."
+        "message":"Then go and find her, now."
     },
     {
         "id":"nanath_150",
-		"message":"How progresses the task? Hope you've done it? We're in a pickle here, kid. No time to dawdle.",
+        "message":"How progresses the task? Hope you've done it? We're in a pickle here, kid. No time to dawdle.",
         "replies":[
             {
                 "text":"Dawdle! Do it yourself if you know everything better!",
-				"nextPhraseID":"nanath_152"
+                "nextPhraseID":"nanath_152"
             },
             {
                 "text":"Well ...",
-				"nextPhraseID":"nanath_160"
+                "nextPhraseID":"nanath_160"
             }
         ]
     },
     {
         "id":"nanath_152",
-		"message":"Calm down. I'm just nervous. Did you make any progress?",
+        "message":"Calm down. I'm just nervous. Did you make any progress?",
         "replies":[
             {
                 "text":"Yes.",
-				"nextPhraseID":"nanath_160"
+                "nextPhraseID":"nanath_160"
             }
         ]
     },
     {
         "id":"nanath_160",
-		"message":"Tell me.",
+        "message":"Tell me.",
         "replies":[
             {
                 "text":"Seraphina doesn't trust me.",
-				"nextPhraseID":"nanath_170",
+                "nextPhraseID":"nanath_170",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1030,13 +1030,13 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":140,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Seraphina has disappeared. She's scared to unleash some monsters which she says Umar and her sealed up.",
-				"nextPhraseID":"nanath_180",
+                "nextPhraseID":"nanath_180",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1047,13 +1047,13 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":180,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"About Seraphina ...",
-				"nextPhraseID":"nanath_190",
+                "nextPhraseID":"nanath_190",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1066,11 +1066,11 @@
     },
     {
         "id":"nanath_170",
-		"message":"She must. Go to Umar. He's the only one she'll listen to.",
+        "message":"She must. Go to Umar. He's the only one she'll listen to.",
         "replies":[
             {
                 "text":"OK.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1083,17 +1083,17 @@
     },
     {
         "id":"nanath_180",
-		"message":"So, that's what Umar is hush-hush about.",
+        "message":"So, that's what Umar is hush-hush about.",
         "replies":[
             {
                 "text":"He could really be more talkative sometimes.",
-				"nextPhraseID":"nanath_181",
+                "nextPhraseID":"nanath_181",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":180,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -1101,11 +1101,11 @@
     },
     {
         "id":"nanath_181",
-		"message":"Anyway, we must find her. I know some of her usual hidings.",
+        "message":"Anyway, we must find her. I know some of her usual hidings.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_181a"
+                "nextPhraseID":"nanath_181a"
             }
         ],
         "rewards":[
@@ -1118,21 +1118,21 @@
     },
     {
         "id":"nanath_181a",
-		"message":"She prefers to be close to a town so she can easily stock up.",
+        "message":"She prefers to be close to a town so she can easily stock up.",
         "replies":[
             {
                 "text":"Makes sense.",
-				"nextPhraseID":"nanath_182"
+                "nextPhraseID":"nanath_182"
             }
         ]
     },
     {
         "id":"nanath_182",
-		"message":"Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course.",
+        "message":"Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course.",
         "replies":[
             {
                 "text":"OK.",
-				"nextPhraseID":"nanath_184"
+                "nextPhraseID":"nanath_184"
             }
         ],
         "rewards":[
@@ -1145,57 +1145,57 @@
     },
     {
         "id":"nanath_183",
-		"message":"So look for her near one of these towns.",
+        "message":"So look for her near one of these towns.",
         "replies":[
             {
                 "text":"Makes sense.",
-				"nextPhraseID":"nanath_184"
+                "nextPhraseID":"nanath_184"
             },
             {
                 "text":"Which towns did you say again?",
-				"nextPhraseID":"nanath_183a"
+                "nextPhraseID":"nanath_183a"
             }
         ]
     },
     {
         "id":"nanath_183a",
-		"message":"Sometimes I could despair. It's so hard to find good workers these days.",
+        "message":"Sometimes I could despair. It's so hard to find good workers these days.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_182"
+                "nextPhraseID":"nanath_182"
             }
         ]
     },
     {
         "id":"nanath_184",
-		"message":"She must be found. By all means.",
+        "message":"She must be found. By all means.",
         "replies":[
             {
                 "text":"Yes, sir",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"nanath_190",
-		"message":"Have you found Seraphina yet?",
+        "message":"Have you found Seraphina yet?",
         "replies":[
             {
                 "text":"No.",
-				"nextPhraseID":"nanath_182",
+                "nextPhraseID":"nanath_182",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":180,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Yes. She told me I would need Luthor's key.",
-				"nextPhraseID":"nanath_192",
+                "nextPhraseID":"nanath_192",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1211,13 +1211,13 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":193,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Yes. She told me I would need Luthor's key.",
-				"nextPhraseID":"nanath_193",
+                "nextPhraseID":"nanath_193",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1230,21 +1230,21 @@
     },
     {
         "id":"nanath_192",
-		"message":"I spoke to Umar. He already suspected that you would need this key.",
+        "message":"I spoke to Umar. He already suspected that you would need this key.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_192a"
+                "nextPhraseID":"nanath_192a"
             }
         ]
     },
     {
         "id":"nanath_192a",
-		"message":"Here you have it, handle it carefully.",
+        "message":"Here you have it, handle it carefully.",
         "replies":[
             {
                 "text":"Of course.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1262,59 +1262,59 @@
     },
     {
         "id":"nanath_193",
-		"message":"I have given it to you already, forgotten?",
+        "message":"I have given it to you already, forgotten?",
         "replies":[
             {
                 "text":"Oh, right. I'm ashamed of myself for trying to trick you.",
-				"nextPhraseID":"nanath_194"
+                "nextPhraseID":"nanath_194"
             }
         ]
     },
     {
         "id":"nanath_194",
-		"message":"I truly hope you are."
+        "message":"I truly hope you are."
     },
     {
         "id":"nanath_200",
-		"message":"Hi kid.",
+        "message":"Hi kid.",
         "replies":[
             {
                 "text":"I have got Luthor's ring.",
-				"nextPhraseID":"nanath_272"
+                "nextPhraseID":"nanath_272"
             }
         ]
     },
     {
         "id":"nanath_272",
-		"message":"Then bring it to Talion. Quickly."
+        "message":"Then bring it to Talion. Quickly."
     },
     {
         "id":"nanath_290",
-		"message":"You were obviously successful. We seem to be inconspicuous again.",
+        "message":"You were obviously successful. We seem to be inconspicuous again.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_300"
+                "nextPhraseID":"nanath_300"
             }
         ]
     },
     {
         "id":"nanath_300",
-		"message":"Good job! Didn't think you could do it. But you did.",
+        "message":"Good job! Didn't think you could do it. But you did.",
         "replies":[
             {
                 "text":"Yes. The search was a nice change.",
-				"nextPhraseID":"nanath_302"
+                "nextPhraseID":"nanath_302"
             }
         ]
     },
     {
         "id":"nanath_302",
-		"message":"Sly Seraphina has already been here and returned Umar Luthor's key. So the room with these dangerous creatures is sealed again.",
+        "message":"Sly Seraphina has already been here and returned Umar Luthor's key. So the room with these dangerous creatures is sealed again.",
         "replies":[
             {
                 "text":"So quick?",
-				"nextPhraseID":"nanath_304"
+                "nextPhraseID":"nanath_304"
             }
         ],
         "rewards":[
@@ -1332,21 +1332,21 @@
     },
     {
         "id":"nanath_304",
-		"message":"Sure. You should know her by now.",
+        "message":"Sure. You should know her by now.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"nanath_308"
+                "nextPhraseID":"nanath_308"
             }
         ]
     },
     {
         "id":"nanath_308",
-		"message":"Umar asked me to reimburse you for your expenses. And something as a thank you. So here are 75000 shining pieces of gold.",
+        "message":"Umar asked me to reimburse you for your expenses. And something as a thank you. So here are 75000 shining pieces of gold.",
         "replies":[
             {
                 "text":"Thank you.",
-				"nextPhraseID":"nanath_310"
+                "nextPhraseID":"nanath_310"
             }
         ],
         "rewards":[
@@ -1364,49 +1364,49 @@
     },
     {
         "id":"nanath_310",
-		"message":"Stay safe, kid."
+        "message":"Stay safe, kid."
     },
     {
         "id":"umar_tt",
-		"message":"Hello $playername, good that you are here. Please talk to Nanath, I am really busy right now.",
+        "message":"Hello $playername, good that you are here. Please talk to Nanath, I am really busy right now.",
         "replies":[
-			{
-				"text":"Wait ...",
-				"nextPhraseID":"umar_return_1"
-			},
-			{
+            {
+                "text":"Wait ...",
+                "nextPhraseID":"umar_return_1"
+            },
+            {
                 "text":"OK, I'll go find Nanath.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"umar_tt_100",
-		"message":"$playername, didn't I make it clear that I didn't want to be disturbed?",
+        "message":"$playername, didn't I make it clear that I didn't want to be disturbed?",
         "replies":[
             {
                 "text":"Yes, I'm sorry too. But we need your help.",
-				"nextPhraseID":"umar_tt_102"
+                "nextPhraseID":"umar_tt_102"
             }
         ]
     },
     {
         "id":"umar_tt_102",
-		"message":"[Muttering to himself] Tu quoque, mi fili? Sigh.",
+        "message":"[Muttering to himself] Tu quoque, mi fili? Sigh.",
         "replies":[
             {
                 "text":"To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate.",
-				"nextPhraseID":"umar_tt_110"
+                "nextPhraseID":"umar_tt_110"
             }
         ]
     },
     {
         "id":"umar_tt_110",
-		"message":"She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it.",
+        "message":"She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it.",
         "replies":[
             {
                 "text":"OK. She will listen to you.",
-				"nextPhraseID":"umar_tt_120"
+                "nextPhraseID":"umar_tt_120"
             }
         ],
         "rewards":[
@@ -1419,47 +1419,47 @@
     },
     {
         "id":"umar_tt_120",
-		"message":"My head is so full. I can hardly concentrate on the important things.",
+        "message":"My head is so full. I can hardly concentrate on the important things.",
         "replies":[
             {
                 "text":"I won't bother you any further.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"The spell will be broken.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Thoroughness is the key to success.",
-				"nextPhraseID":"umar_tt_130"
+                "nextPhraseID":"umar_tt_130"
             }
         ]
     },
     {
         "id":"umar_tt_130",
-		"message":"Key? To success? Don't talk nonsense.",
+        "message":"Key? To success? Don't talk nonsense.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"umar_tt_132"
+                "nextPhraseID":"umar_tt_132"
             }
         ]
     },
     {
         "id":"umar_tt_132",
-		"message":"There's something else I should think about. But it just doesn't occur to me right now.",
+        "message":"There's something else I should think about. But it just doesn't occur to me right now.",
         "replies":[
             {
                 "text":"I better leave you alone now.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"I'm sure you'll remember it again.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"OK. Bye.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1473,7 +1473,7 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":210,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1484,7 +1484,7 @@
     },
     {
         "id":"t_guild03_hideout3_lock_10",
-		"message":"The lock is sealed again."
+        "message":"The lock is sealed again."
     },
     {
         "id":"tt_jolnor_10",
@@ -1498,89 +1498,89 @@
     },
     {
         "id":"tt_sly_10",
-		"message":"Umar? Who's that?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_12",
-				"text":"Oh well: I am nothing. You don't see me."
-			}
-		]
-	},
+        "message":"Umar? Who's that?",
+        "replies":[
+            {
+                "text":"Oh well: I am nothing. You don't see me.",
+                "nextPhraseID":"tt_sly_12"
+            }
+        ]
+    },
     {
         "id":"tt_sly_12",
-		"message":"That's better, little child. Get used to it.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_20",
-				"text":"You are right."
-			},
-			{
-				"nextPhraseID":"tt_sly_14",
-				"text":"I'm not a little child anymore!"
-			}
-		]
-	},
+        "message":"That's better, little child. Get used to it.",
+        "replies":[
+            {
+                "text":"You are right.",
+                "nextPhraseID":"tt_sly_20"
+            },
+            {
+                "text":"I'm not a little child anymore!",
+                "nextPhraseID":"tt_sly_14"
+            }
+        ]
+    },
     {
         "id":"tt_sly_14",
-		"message":"Then stop stomping on the ground.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_20",
-				"text":"N"
-			}
-		]
-	},
+        "message":"Then stop stomping on the ground.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_20"
+            }
+        ]
+    },
     {
         "id":"tt_sly_20",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_50",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":120
-					}
-				]
-			},
-			{
-				"nextPhraseID":"tt_sly_40",
-				"requires":[
-					{
-						"requireType":"questProgress",
-						"requireID":"troubling_times",
-						"value":110
-					}
-				]
-			},
-			{
-				"nextPhraseID":"tt_sly_30"
-			}
-		]
-	},
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tt_sly_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tt_sly_30"
+            }
+        ]
+    },
     {
         "id":"tt_sly_30",
-		"message":"Now what does Umar want?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_32",
-				"text":"We have to remove the Striking Spectacle Shadow spell from members of the Thieves' Guild. Or the Guild may as well cease to exist."
-			}
-		]
-	},
+        "message":"Now what does Umar want?",
+        "replies":[
+            {
+                "text":"We have to remove the Striking Spectacle Shadow spell from members of the Thieves' Guild. Or the Guild may as well cease to exist.",
+                "nextPhraseID":"tt_sly_32"
+            }
+        ]
+    },
     {
         "id":"tt_sly_32",
-		"message":"And what do I have to do with it?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_34",
-				"text":"We need Luthor's ring, and you know ..."
-			}
-		]
-	},
+        "message":"And what do I have to do with it?",
+        "replies":[
+            {
+                "text":"We need Luthor's ring, and you know ...",
+                "nextPhraseID":"tt_sly_34"
+            }
+        ]
+    },
     {
         "id":"tt_sly_34",
-		"message":"Likely story, kid. Buzz off!",
+        "message":"Likely story, kid. Buzz off!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1588,247 +1588,247 @@
                 "value":110
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_40",
-		"message":"Now what does Umar want?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_42",
-				"text":"We have to remove the Striking Spectacle Shadow spell from ..."
-			}
-		]
-	},
+        "message":"Now what does Umar want?",
+        "replies":[
+            {
+                "text":"We have to remove the Striking Spectacle Shadow spell from ...",
+                "nextPhraseID":"tt_sly_42"
+            }
+        ]
+    },
     {
         "id":"tt_sly_42",
-		"message":"Yes, you've said already. Stop repeating yourself.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_44",
-				"text":"Sure. We need Luthor's ring, and ..."
-			}
-		]
-	},
+        "message":"Yes, you've said already. Stop repeating yourself.",
+        "replies":[
+            {
+                "text":"Sure. We need Luthor's ring, and ...",
+                "nextPhraseID":"tt_sly_44"
+            }
+        ]
+    },
     {
         "id":"tt_sly_44",
-		"message":"Forget it, kid. Buzz off!",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_46",
-				"text":"Sure. We need Luthor's ring, and ..."
-			}
-		]
-	},
+        "message":"Forget it, kid. Buzz off!",
+        "replies":[
+            {
+                "text":"Sure. We need Luthor's ring, and ...",
+                "nextPhraseID":"tt_sly_46"
+            }
+        ]
+    },
     {
         "id":"tt_sly_46",
-		"message":"And please, stop repeating yourself."
-	},
+        "message":"And please, stop repeating yourself."
+    },
     {
         "id":"tt_sly_50",
-		"message":"Now what does Umar want?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_52",
-				"text":"Listen ... [whispering the password] Now you believe me? We have to remove the Striking Spectacle ..."
-			}
-		]
-	},
+        "message":"Now what does Umar want?",
+        "replies":[
+            {
+                "text":"Listen ... [whispering the password] Now you believe me? We have to remove the Striking Spectacle ...",
+                "nextPhraseID":"tt_sly_52"
+            }
+        ]
+    },
     {
         "id":"tt_sly_52",
-		"message":"You are still repeating yourself.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_54",
-				"text":"Stop that game now and answer me!"
-			}
-		]
-	},
+        "message":"You are still repeating yourself.",
+        "replies":[
+            {
+                "text":"Stop that game now and answer me!",
+                "nextPhraseID":"tt_sly_54"
+            }
+        ]
+    },
     {
         "id":"tt_sly_54",
-		"message":"All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_56",
-				"text":"Why would that ring unleash evil?"
-			}
-		]
-	},
+        "message":"All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?",
+        "replies":[
+            {
+                "text":"Why would that ring unleash evil?",
+                "nextPhraseID":"tt_sly_56"
+            }
+        ]
+    },
     {
         "id":"tt_sly_56",
-		"message":"Not the ring itself. But the cave does, if the door is opened.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_58",
-				"text":"That makes even less sense. Explain."
-			}
-		]
-	},
+        "message":"Not the ring itself. But the cave does, if the door is opened.",
+        "replies":[
+            {
+                "text":"That makes even less sense. Explain.",
+                "nextPhraseID":"tt_sly_58"
+            }
+        ]
+    },
     {
         "id":"tt_sly_58",
-		"message":"Say 'please'.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_58",
-				"text":"No.",
+        "message":"Say 'please'.",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"tt_sly_58",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"50"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_58",
-				"text":"Never.",
+            },
+            {
+                "text":"Never.",
+                "nextPhraseID":"tt_sly_58",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"33"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_58",
-				"text":"Forget it.",
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"tt_sly_58",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"33"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_60",
-				"text":"[With rolling eyes] OK - please."
-			}
-		]
-	},
+            },
+            {
+                "text":"[With rolling eyes] OK - please.",
+                "nextPhraseID":"tt_sly_60"
+            }
+        ]
+    },
     {
         "id":"tt_sly_60",
-		"message":"You might remember Crackshot's hideout, do you?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_62",
-				"text":"Of course. Behind the many ugly larvals."
-			}
-		]
-	},
+        "message":"You might remember Crackshot's hideout, do you?",
+        "replies":[
+            {
+                "text":"Of course. Behind the many ugly larvals.",
+                "nextPhraseID":"tt_sly_62"
+            }
+        ]
+    },
     {
         "id":"tt_sly_62",
-		"message":"Good. Do you know why that cave in the back was sealed?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_70",
-				"text":"No, tell me."
-			}
-		]
-	},
+        "message":"Good. Do you know why that cave in the back was sealed?",
+        "replies":[
+            {
+                "text":"No, tell me.",
+                "nextPhraseID":"tt_sly_70"
+            }
+        ]
+    },
     {
         "id":"tt_sly_70",
-		"message":"A while back, when the Thieves' Guild got successful, we managed to acquire many items of value, including magical items.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_72",
-				"text":"N"
-			}
-		]
-	},
+        "message":"A while back, when the Thieves' Guild got successful, we managed to acquire many items of value, including magical items.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_72"
+            }
+        ]
+    },
     {
         "id":"tt_sly_72",
-		"message":"A place was needed to keep them safely. We heard of this deep cave where you met and bested Crackshot.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_74",
-				"text":"That was no easy fight."
-			},
-			{
-				"nextPhraseID":"tt_sly_74",
-				"text":"Phh, child's stuff."
-			}
-		]
-	},
+        "message":"A place was needed to keep them safely. We heard of this deep cave where you met and bested Crackshot.",
+        "replies":[
+            {
+                "text":"That was no easy fight.",
+                "nextPhraseID":"tt_sly_74"
+            },
+            {
+                "text":"Phh, child's stuff.",
+                "nextPhraseID":"tt_sly_74"
+            }
+        ]
+    },
     {
         "id":"tt_sly_74",
-		"message":"So, when we created that deep cave hideout for our most precious items, we never imagined that the cave held such terrible monsters. While we were exploring, they came and attacked us!",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_76",
-				"text":"N"
-			}
-		]
-	},
+        "message":"So, when we created that deep cave hideout for our most precious items, we never imagined that the cave held such terrible monsters. While we were exploring, they came and attacked us!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_76"
+            }
+        ]
+    },
     {
         "id":"tt_sly_76",
-		"switchToNPC":"none",
-		"message":"Seraphina suddenly shivers.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_80",
-				"text":"And then?"
-			}
-		]
-	},
+        "message":"Seraphina suddenly shivers.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"And then?",
+                "nextPhraseID":"tt_sly_80"
+            }
+        ]
+    },
     {
         "id":"tt_sly_80",
-		"switchToNPC":"thief_seraphina",
-		"message":"We're thieves, not warriors. We tried to escape from there. Lost a few members ...",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_82",
-				"text":"N"
-			}
-		]
-	},
+        "message":"We're thieves, not warriors. We tried to escape from there. Lost a few members ...",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_82"
+            }
+        ]
+    },
     {
         "id":"tt_sly_82",
-		"switchToNPC":"thief_seraphina",
-		"message":"Lost Luthor's ring in the cave in the scramble to get out.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_84",
-				"text":"N"
-			}
-		]
-	},
+        "message":"Lost Luthor's ring in the cave in the scramble to get out.",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_84"
+            }
+        ]
+    },
     {
         "id":"tt_sly_84",
-		"message":"Still, we managed to hold off the cave monsters, and we managed to seal it.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_90",
-				"text":"Using Luthor's items?"
-			}
-		]
-	},
+        "message":"Still, we managed to hold off the cave monsters, and we managed to seal it.",
+        "replies":[
+            {
+                "text":"Using Luthor's items?",
+                "nextPhraseID":"tt_sly_90"
+            }
+        ]
+    },
     {
         "id":"tt_sly_90",
-		"message":"That's right!",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_92",
-				"text":"N"
-			}
-		]
-	},
+        "message":"That's right!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_92"
+            }
+        ]
+    },
     {
         "id":"tt_sly_92",
-		"message":"We used Luthor's Key and his gloves to seal it, by creating a magical, impermeable door.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_94",
-				"text":"N"
-			}
-		]
-	},
+        "message":"We used Luthor's Key and his gloves to seal it, by creating a magical, impermeable door.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_94"
+            }
+        ]
+    },
     {
         "id":"tt_sly_94",
-		"message":"Umar and I decided to separate the key and the gloves. And both of us we never meet, to keep that door permanently sealed.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_96",
-				"text":"So that the door may never be opened."
-			}
-		],
+        "message":"Umar and I decided to separate the key and the gloves. And both of us we never meet, to keep that door permanently sealed.",
+        "replies":[
+            {
+                "text":"So that the door may never be opened.",
+                "nextPhraseID":"tt_sly_96"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1836,87 +1836,87 @@
                 "value":130
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_96",
-		"message":"Exactly.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_100",
-				"text":"But we need to retrieve Luthor's ring now."
-			}
-		]
-	},
+        "message":"Exactly.",
+        "replies":[
+            {
+                "text":"But we need to retrieve Luthor's ring now.",
+                "nextPhraseID":"tt_sly_100"
+            }
+        ]
+    },
     {
         "id":"tt_sly_100",
-		"message":"Even Umar's current plea will not change my mind. Whatever ails the Guild - do find another solution.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_110",
-				"text":"What?"
-			}
-		]
-	},
+        "message":"Even Umar's current plea will not change my mind. Whatever ails the Guild - do find another solution.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"tt_sly_110"
+            }
+        ]
+    },
     {
         "id":"tt_sly_110",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_116",
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_116",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"17"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_115",
+            },
+            {
+                "nextPhraseID":"tt_sly_115",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"20"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_114",
+            },
+            {
+                "nextPhraseID":"tt_sly_114",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"25"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_113",
+            },
+            {
+                "nextPhraseID":"tt_sly_113",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"33"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_112",
+            },
+            {
+                "nextPhraseID":"tt_sly_112",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"50"
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_111"
-			}
-		]
-	},
+            },
+            {
+                "nextPhraseID":"tt_sly_111"
+            }
+        ]
+    },
     {
         "id":"tt_sly_111",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1934,14 +1934,14 @@
                 "value":1
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_112",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1959,14 +1959,14 @@
                 "value":2
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_113",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1984,14 +1984,14 @@
                 "value":3
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_114",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2009,14 +2009,14 @@
                 "value":4
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_115",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2034,14 +2034,14 @@
                 "value":5
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_116",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_120"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_120"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2059,16 +2059,16 @@
                 "value":6
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_120",
-		"message":"Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me.",
-		"replies":[
-			{
-				"nextPhraseID":"R",
-				"text":"Hey, don't run away!!"
-			}
-		],
+        "message":"Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me.",
+        "replies":[
+            {
+                "text":"Hey, don't run away!!",
+                "nextPhraseID":"R"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2086,39 +2086,39 @@
                 "mapName":"lake_shore_road_9"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_200",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_202",
-				"requires":[
-					{
-						"requireType":"killedMonster",
-						"requireID":"tt_guys",
-						"value":5,
-						"negate":true
-					}
-				]
-			},
-			{
-				"nextPhraseID":"tt_sly_210"
-			}
-		]
-	},
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_202",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"tt_guys",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tt_sly_210"
+            }
+        ]
+    },
     {
         "id":"tt_sly_202",
-		"message":"Watch out, kid. Behind you!"
-	},
+        "message":"Watch out, kid. Behind you!"
+    },
     {
         "id":"tt_sly_210",
-		"message":"Ok, you're tough, even if not smart, kid.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_211",
-				"text":"Thank you?"
-			}
-		],
+        "message":"Ok, you're tough, even if not smart, kid.",
+        "replies":[
+            {
+                "text":"Thank you?",
+                "nextPhraseID":"tt_sly_211"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2156,36 +2156,36 @@
                 "mapName":"vilegard_s"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_211",
-		"message":"Smart enough to find me, and tough enough to beat my friends. You convinced me that we can do it.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_212",
-				"text":"N"
-			}
-		]
-	},
+        "message":"Smart enough to find me, and tough enough to beat my friends. You convinced me that we can do it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_212"
+            }
+        ]
+    },
     {
         "id":"tt_sly_212",
-		"message":"Like we talked, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_213",
-				"text":"N"
-			}
-		]
-	},
+        "message":"Like we talked, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_213"
+            }
+        ]
+    },
     {
         "id":"tt_sly_213",
-		"message":"So you have to go and ask Umar for Luthor's key.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_214",
-				"text":"No problem."
-			}
-		],
+        "message":"So you have to go and ask Umar for Luthor's key.",
+        "replies":[
+            {
+                "text":"No problem.",
+                "nextPhraseID":"tt_sly_214"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2193,54 +2193,54 @@
                 "value":192
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_214",
-		"message":"However, that door can only be opened if you also wear Luthor's gloves, which breaks the spell on it.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_216",
-				"text":"And the evil you mentioned are monsters, nothing more?"
-			}
-		]
-	},
+        "message":"However, that door can only be opened if you also wear Luthor's gloves, which breaks the spell on it.",
+        "replies":[
+            {
+                "text":"And the evil you mentioned are monsters, nothing more?",
+                "nextPhraseID":"tt_sly_216"
+            }
+        ]
+    },
     {
         "id":"tt_sly_216",
-		"message":"In fact, I didn't take the time to look at them more closely. But they seemed terrible and deadly to me.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_220",
-				"text":"N"
-			}
-		]
-	},
+        "message":"In fact, I didn't take the time to look at them more closely. But they seemed terrible and deadly to me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_220"
+            }
+        ]
+    },
     {
         "id":"tt_sly_220",
-		"message":"When the door opens, and these strong monsters escape into the open, they will attack Dhayavar, which we must avoid at all costs.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_222",
-				"text":"N"
-			}
-		]
-	},
+        "message":"When the door opens, and these strong monsters escape into the open, they will attack Dhayavar, which we must avoid at all costs.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_222"
+            }
+        ]
+    },
     {
         "id":"tt_sly_222",
-		"message":"Which reminds me: Another kid was looking for information to open it.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_230",
-				"text":"That kid, did he look just like me, but older?"
-			}
-		]
-	},
+        "message":"Which reminds me: Another kid was looking for information to open it.",
+        "replies":[
+            {
+                "text":"That kid, did he look just like me, but older?",
+                "nextPhraseID":"tt_sly_230"
+            }
+        ]
+    },
     {
         "id":"tt_sly_230",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_240"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_240"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -2248,16 +2248,16 @@
                 "value":999
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_240",
-		"message":"Come to think of it, he did.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_250",
-				"text":"[to self] What was Andor trying to do now?"
-			}
-		],
+        "message":"Come to think of it, he did.",
+        "replies":[
+            {
+                "text":"[to self] What was Andor trying to do now?",
+                "nextPhraseID":"tt_sly_250"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2270,14 +2270,14 @@
                 "value":999
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_250",
-		"message":"Looking at your strength, kid, you may just be able to beat those monsters. We might give it a try.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_252",
-				"text":"Thanks again.",
+        "message":"Looking at your strength, kid, you may just be able to beat those monsters. We might give it a try.",
+        "replies":[
+            {
+                "text":"Thanks again.",
+                "nextPhraseID":"tt_sly_252",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2288,33 +2288,33 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":190,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly_254",
-				"text":"Thanks again.",
+            },
+            {
+                "text":"Thanks again.",
+                "nextPhraseID":"tt_sly_254",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"sullengard_hidden",
                         "value":38,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			}
-		]
-	},
+            }
+        ]
+    },
     {
         "id":"tt_sly_252",
-		"message":"By the way, here's your money back. 1000 gold pieces.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_254",
-				"text":"Hmm, OK."
-			}
-		],
+        "message":"By the way, here's your money back. 1000 gold pieces.",
+        "replies":[
+            {
+                "text":"Hmm, OK.",
+                "nextPhraseID":"tt_sly_254"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2327,16 +2327,16 @@
                 "value":1000
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_254",
-		"message":"Meet me at the door to the secret room and bring Luthor's key. Together with Luthor's gloves the door will open.",
-		"replies":[
-			{
-				"nextPhraseID":"R",
-				"text":"OK."
-			}
-		],
+        "message":"Meet me at the door to the secret room and bring Luthor's key. Together with Luthor's gloves the door will open.",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"R"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2409,46 +2409,46 @@
                 "mapName":"vilegard_s"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_300",
-		"message":"What did you expect?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_310",
-				"text":"Well ..."
-			}
-		]
-	},
+        "message":"What did you expect?",
+        "replies":[
+            {
+                "text":"Well ...",
+                "nextPhraseID":"tt_sly_310"
+            }
+        ]
+    },
     {
         "id":"tt_sly_310",
-		"message":"OK, I admit that you are quite fine.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_320",
-				"text":"Thank you!"
-			}
-		]
-	},
+        "message":"OK, I admit that you are quite fine.",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"tt_sly_320"
+            }
+        ]
+    },
     {
         "id":"tt_sly_320",
-		"message":"I would actually do a job with you again if the opportunity came up.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_330",
-				"text":"Yes, would be nice."
-			}
-		]
-	},
+        "message":"I would actually do a job with you again if the opportunity came up.",
+        "replies":[
+            {
+                "text":"Yes, would be nice.",
+                "nextPhraseID":"tt_sly_330"
+            }
+        ]
+    },
     {
         "id":"tt_sly_330",
-		"message":"And now buzz off, kid. ... $playername.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_350",
-				"text":"[Grinning] See you."
-			}
-		],
+        "message":"And now buzz off, kid. ... $playername.",
+        "replies":[
+            {
+                "text":"[Grinning] See you.",
+                "nextPhraseID":"tt_sly_350"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2456,20 +2456,20 @@
                 "value":320
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_350",
-		"message":"See you."
-	},
+        "message":"See you."
+    },
     {
         "id":"tt_sly2",
-		"message":"At last! Did you sleep all the way long?",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly2_10",
-				"text":"Polite as ever."
-			}
-		],
+        "message":"At last! Did you sleep all the way long?",
+        "replies":[
+            {
+                "text":"Polite as ever.",
+                "nextPhraseID":"tt_sly2_10"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2477,26 +2477,26 @@
                 "value":200
             }
         ]
-	},
+    },
     {
         "id":"tt_sly2_10",
-		"message":"Give me Luthor's key now.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly2_12",
-				"text":"Haha, funny. I forgot to bring it.",
+        "message":"Give me Luthor's key now.",
+        "replies":[
+            {
+                "text":"Haha, funny. I forgot to bring it.",
+                "nextPhraseID":"tt_sly2_12",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"key_luthor",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
-			{
-				"nextPhraseID":"tt_sly2_20",
-				"text":"Here it is. Let's do it.",
+            },
+            {
+                "text":"Here it is. Let's do it.",
+                "nextPhraseID":"tt_sly2_20",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2504,35 +2504,35 @@
                         "value":1
                     }
                 ]
-			}
-		]
-	},
+            }
+        ]
+    },
     {
         "id":"tt_sly2_12",
-		"switchToNPC":"none",
-		"message":"Seraphina stares at you in disbelief.",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly2_14",
-				"text":"Eh, I'm getting it, I'm running. Just a minute ..."
-			}
-		]
-	},
+        "message":"Seraphina stares at you in disbelief.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Eh, I'm getting it, I'm running. Just a minute ...",
+                "nextPhraseID":"tt_sly2_14"
+            }
+        ]
+    },
     {
         "id":"tt_sly2_14",
-		"switchToNPC":"tt_seraphina2",
-		"message":"Don't you dare to come back without!"
-	},
+        "message":"Don't you dare to come back without!",
+        "switchToNPC":"tt_seraphina2"
+    },
     {
         "id":"tt_sly2_20",
-		"switchToNPC":"none",
-		"message":"Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.",
-		"replies":[
-			{
-				"nextPhraseID":"X",
-				"text":"I better follow immediately."
-			}
-		],
+        "message":"Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"I better follow immediately.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2550,14 +2550,14 @@
                 "mapName":"crackshot_hideout3"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack0",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_attack0a"
-			}
-		],
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_attack0a"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -2570,27 +2570,27 @@
                 "value":30
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack0a",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_attack0b",
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_attack0b",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":220,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			}
-		]
-	},
+            }
+        ]
+    },
     {
         "id":"tt_sly_attack0b",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Hey kid, stay close behind me! It's going to be dangerous.",
+        "message":"Hey kid, stay close behind me! It's going to be dangerous.",
+        "switchToNPC":"tt_seraphina3",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2603,7 +2603,7 @@
                 "value":220
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack1",
         "replies":[
@@ -2665,7 +2665,7 @@
                 "value":1
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack1_1",
         "rewards":[
@@ -2675,17 +2675,17 @@
                 "mapName":"crackshot_hideout4"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack1_10",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Ha! Take that, skeleton!"
-	},
+        "message":"Ha! Take that, skeleton!",
+        "switchToNPC":"tt_seraphina3"
+    },
     {
         "id":"tt_sly_attack1_20",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Just one more hit ..."
-	},
+        "message":"Just one more hit ...",
+        "switchToNPC":"tt_seraphina3"
+    },
     {
         "id":"tt_sly_attack1_80",
         "rewards":[
@@ -2695,22 +2695,22 @@
                 "mapName":"crackshot_hideout4"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack1_90",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Finished. Take a quick breather and then move on to the next one ...",
-		"replies":[
-			{
-				"text":"N",
-				"nextPhraseID":"tt_sly_attack1_92"
-			}
-		]
-	},
+        "message":"Finished. Take a quick breather and then move on to the next one ...",
+        "switchToNPC":"tt_seraphina3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_attack1_92"
+            }
+        ]
+    },
     {
         "id":"tt_sly_attack1_92",
-		"message":"And keep staying close behind me!"
-	},
+        "message":"And keep staying close behind me!"
+    },
     {
         "id":"tt_sly_attack2",
         "replies":[
@@ -2767,11 +2767,11 @@
                 "value":30
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack2_10",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Bang!!",
+        "message":"Bang!!",
+        "switchToNPC":"tt_seraphina3",
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -2779,12 +2779,12 @@
                 "value":999
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack2_20",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Bang again!!"
-	},
+        "message":"Bang again!!",
+        "switchToNPC":"tt_seraphina3"
+    },
     {
         "id":"tt_sly_attack2_80",
         "rewards":[
@@ -2794,22 +2794,22 @@
                 "mapName":"crackshot_hideout4"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack2_90",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Pew, it's getting warm. Oh, now there are three of them ...",
-		"replies":[
-			{
-				"text":"N",
-				"nextPhraseID":"tt_sly_attack2_92"
-			}
-		]
-	},
+        "message":"Pew, it's getting warm. Oh, now there are three of them ...",
+        "switchToNPC":"tt_seraphina3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_attack2_92"
+            }
+        ]
+    },
     {
         "id":"tt_sly_attack2_92",
-		"message":"Stay close to me!"
-	},
+        "message":"Stay close to me!"
+    },
     {
         "id":"tt_sly_attack3",
         "replies":[
@@ -2871,11 +2871,11 @@
                 "value":1
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack3_10",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Ha! Move, you lazy bones!",
+        "message":"Ha! Move, you lazy bones!",
+        "switchToNPC":"tt_seraphina3",
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -2883,27 +2883,27 @@
                 "value":999
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack3_20",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Ouch! That has hurt."
-	},
+        "message":"Ouch! That has hurt.",
+        "switchToNPC":"tt_seraphina3"
+    },
     {
         "id":"tt_sly_attack3_30",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Aaargh!!"
-	},
+        "message":"Aaargh!!",
+        "switchToNPC":"tt_seraphina3"
+    },
     {
         "id":"tt_sly_attack3_80",
-		"switchToNPC":"tt_seraphina3",
-		"message":"Noo! I can't ... Help! I'm wounded ... Run!",
-		"replies":[
-			{
-				"text":"N",
-				"nextPhraseID":"tt_sly_attack3_90"
-			}
-		],
+        "message":"Noo! I can't ... Help! I'm wounded ... Run!",
+        "switchToNPC":"tt_seraphina3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tt_sly_attack3_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2916,10 +2916,10 @@
                 "mapName":"crackshot_hideout4"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack3_90",
-		"message":"With her last bit of strength, Seraphina leapt past you and fell to the ground.",
+        "message":"With her last bit of strength, Seraphina leapt past you and fell to the ground.",
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -2927,27 +2927,27 @@
                 "value":1
             }
         ]
-	},
+    },
     {
         "id":"tt_sly_attack4",
-		"replies":[
-			{
-				"nextPhraseID":"tt_sly_attack4_10",
+        "replies":[
+            {
+                "nextPhraseID":"tt_sly_attack4_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":255,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			}
-		]
-	},
+            }
+        ]
+    },
     {
         "id":"tt_sly_attack4_10",
-		"switchToNPC":"tt_seraphina5",
-		"message":"I'm OK again! I'll help in the search.",
+        "message":"I'm OK again! I'll help in the search.",
+        "switchToNPC":"tt_seraphina5",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -2974,51 +2974,46 @@
                 "rewardID":"tt_search"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly3",
-		"message":"Don't push me. I need to concentrate."
-	},
+        "message":"Don't push me. I need to concentrate."
+    },
     {
         "id":"tt_sly4_key",
-		"message":"Help ... don't let me die here ..."
-	},
-    {
-        "id":"tt_sly4_key",
-		"switchToNPC":"tt_seraphina4",
-		"message":"[weak voice] ... help me ..."
-	},
+        "message":"Help ... don't let me die here ..."
+    },
     {
         "id":"tt_sly4",
-		"message":"It's good to ... see you are alive, kid.",
+        "message":"It's good to ... see you are alive, kid.",
         "replies":[
             {
                 "text":"You look terrible.",
-				"nextPhraseID":"tt_sly4_2",
+                "nextPhraseID":"tt_sly4_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":250,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"You are severely wounded.",
-				"nextPhraseID":"tt_sly4_10",
+                "nextPhraseID":"tt_sly4_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":250,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"You look better now.",
-				"nextPhraseID":"tt_sly4_4",
+                "nextPhraseID":"tt_sly4_4",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3029,13 +3024,13 @@
             },
             {
                 "text":"Hey, I'm back. Don't be alarmed, I'll squeeze past you.",
-				"nextPhraseID":"tt_sly4_6",
+                "nextPhraseID":"tt_sly4_6",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times_nd",
                         "value":30,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3047,22 +3042,22 @@
                 "value":999
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_2",
-		"switchToNPC":"tt_seraphina4",
-		"message":"Nice compliment, kid. Ooouw ...",
+        "message":"Nice compliment, kid. Ooouw ...",
+        "switchToNPC":"tt_seraphina4",
         "replies":[
             {
                 "text":"You are severely wounded.",
-				"nextPhraseID":"tt_sly4_10"
+                "nextPhraseID":"tt_sly4_10"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_4",
-		"message":"Yes, thanks to you. Just give me a few seconds ..."
-	},
+        "message":"Yes, thanks to you. Just give me a few seconds ..."
+    },
     {
         "id":"tt_sly4_6",
         "rewards":[
@@ -3077,124 +3072,124 @@
                 "value":30
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_10",
-		"message":"Give me some healing potion ... please ...",
+        "message":"Give me some healing potion ... please ...",
         "replies":[
             {
                 "text":"Here, have a minor vial of health.",
-				"nextPhraseID":"tt_sly4_12",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"health_minor",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_12",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_minor",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a minor vial of health.",
-				"nextPhraseID":"tt_sly4_12",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"health_minor2",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_12",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_minor2",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a potion of health.",
-				"nextPhraseID":"tt_sly4_20",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"health",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a major potion of health.",
-				"nextPhraseID":"tt_sly4_20",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"health_major2",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_major2",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a major flask of health.",
-				"nextPhraseID":"tt_sly4_20",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"health_major",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_major",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a bonemeal potion.",
-				"nextPhraseID":"tt_sly4_20",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"bonemeal_potion",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bonemeal_potion",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have a bonemeal potion from Lodar.",
-				"nextPhraseID":"tt_sly4_20",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"pot_bm_lodar",
-						"value":1
-					}
-				]
+                "nextPhraseID":"tt_sly4_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_bm_lodar",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Here, have this nice potion. [give her a poison potion]",
-				"nextPhraseID":"tt_sly4_22",
-				"requires":[
+                "nextPhraseID":"tt_sly4_22",
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":252,
-						"negate":true
+                        "negate":true
                     },
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"pot_poison_weak",
-						"value":1
-					}
-				]
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_poison_weak",
+                        "value":1
+                    }
+                ]
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_12",
-		"message":"That didn't work. My wounds are too deep.",
+        "message":"That didn't work. My wounds are too deep.",
         "replies":[
             {
                 "text":"Oh dear, wait, I'll get something different.",
-				"nextPhraseID":"tt_sly4_10"
+                "nextPhraseID":"tt_sly4_10"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_20",
-		"message":"Ahh, that's good. Thank you, kid ... $playername.",
+        "message":"Ahh, that's good. Thank you, kid ... $playername.",
         "replies":[
             {
                 "text":"[Embarrassed] Sure thing.",
-				"nextPhraseID":"tt_sly4_30"
+                "nextPhraseID":"tt_sly4_30"
             }
         ],
         "rewards":[
@@ -3204,14 +3199,14 @@
                 "value":250
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_22",
-		"message":"[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten.",
+        "message":"[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten.",
         "replies":[
             {
                 "text":"So - sorry.",
-				"nextPhraseID":"tt_sly4_24"
+                "nextPhraseID":"tt_sly4_24"
             }
         ],
         "rewards":[
@@ -3221,35 +3216,35 @@
                 "value":252
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_24",
-		"switchToNPC":"none",
-		"message":"You hope that she doesn't notice your guilty conscience.",
+        "message":"You hope that she doesn't notice your guilty conscience.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"You are tough.",
-				"nextPhraseID":"tt_sly4_2"
+                "nextPhraseID":"tt_sly4_2"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly4_30",
-		"message":"Now don't just stand around here. Look lively and find Luthor's ring.",
+        "message":"Now don't just stand around here. Look lively and find Luthor's ring.",
         "replies":[
             {
                 "text":"Ah, you're back to your old self already.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
-	},
+    },
     {
         "id":"tt_sly5",
-		"message":"Suits me, this place. Don't you think?",
+        "message":"Suits me, this place. Don't you think?",
         "replies":[
             {
                 "text":"Better help me search.",
-				"nextPhraseID":"tt_sly5_10",
+                "nextPhraseID":"tt_sly5_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3265,31 +3260,31 @@
             },
             {
                 "text":"[Sarcastic] Truly royal.",
-				"nextPhraseID":"tt_sly5_2"
+                "nextPhraseID":"tt_sly5_2"
             },
             {
                 "text":"This throne looks familiar to me.",
-				"nextPhraseID":"tt_sly5_8"
+                "nextPhraseID":"tt_sly5_8"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_2",
-		"message":"Royal, yes.",
+        "message":"Royal, yes.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"tt_sly5_3"
+                "nextPhraseID":"tt_sly5_3"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_3",
-		"message":"In fact, I am King Luthor's heir. He's my ancestor.",
+        "message":"In fact, I am King Luthor's heir. He's my ancestor.",
         "replies":[
             {
                 "text":"Really?",
-				"nextPhraseID":"tt_sly5_4"
+                "nextPhraseID":"tt_sly5_4"
             }
         ],
         "rewards":[
@@ -3299,38 +3294,38 @@
                 "value":10
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_4",
-		"message":"How else would I be able to wear his gloves without getting hurt?",
+        "message":"How else would I be able to wear his gloves without getting hurt?",
         "replies":[
             {
                 "text":"True.",
-				"nextPhraseID":"tt_sly5_6"
+                "nextPhraseID":"tt_sly5_6"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_6",
-		"message":"Nothing to be proud of though. Forget it, child. I should have kept quiet about it."
- 	},
+        "message":"Nothing to be proud of though. Forget it, child. I should have kept quiet about it."
+    },
     {
         "id":"tt_sly5_8",
-		"message":"So you've been to King Luthor's tomb. Yes, we have ... borrowed ... his throne.",
+        "message":"So you've been to King Luthor's tomb. Yes, we have ... borrowed ... his throne.",
         "replies":[
             {
                 "text":"Oh.",
-				"nextPhraseID":"tt_sly5"
+                "nextPhraseID":"tt_sly5"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_10",
-		"message":"Of course I'll help you. What are you looking for?",
+        "message":"Of course I'll help you. What are you looking for?",
         "replies":[
             {
                 "text":"Luthor's ring, of course. I just can't find it.",
-				"nextPhraseID":"tt_sly5_12"
+                "nextPhraseID":"tt_sly5_12"
             }
         ],
         "rewards":[
@@ -3340,64 +3335,64 @@
                 "value":260
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_12",
-		"message":"Ah - you are looking for this ring here, am I right?",
+        "message":"Ah - you are looking for this ring here, am I right?",
         "replies":[
             {
                 "text":"What? And I've been searching here for hours!",
-				"nextPhraseID":"tt_sly5_20"
+                "nextPhraseID":"tt_sly5_20"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_20",
-		"message":"Well, you were so engrossed in the matter that I didn't want to disturb you.",
+        "message":"Well, you were so engrossed in the matter that I didn't want to disturb you.",
         "replies":[
             {
-			"text":"[Grumble]",
-				"nextPhraseID":"tt_sly5_22"
+                "text":"[Grumble]",
+                "nextPhraseID":"tt_sly5_22"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_22",
-		"message":"Okay, we're done here. We should get out of here now.",
+        "message":"Okay, we're done here. We should get out of here now.",
         "replies":[
             {
-			"text":"N",
-				"nextPhraseID":"tt_sly5_24"
+                "text":"N",
+                "nextPhraseID":"tt_sly5_24"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_24",
-		"message":"The monsters will come back. Then the door should be closed and sealed. From the outside.",
+        "message":"The monsters will come back. Then the door should be closed and sealed. From the outside.",
         "replies":[
             {
-			"text":"And all the riches?",
-				"nextPhraseID":"tt_sly5_26"
+                "text":"And all the riches?",
+                "nextPhraseID":"tt_sly5_26"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_26",
-		"message":"Don't leave anything here you want to keep. We'll never go back in here.",
+        "message":"Don't leave anything here you want to keep. We'll never go back in here.",
         "replies":[
             {
-			"text":"N",
-				"nextPhraseID":"tt_sly5_30"
+                "text":"N",
+                "nextPhraseID":"tt_sly5_30"
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_30",
-		"message":"Here, catch the ring! Keep it safe and bring it to Talion. I'm off.",
+        "message":"Here, catch the ring! Keep it safe and bring it to Talion. I'm off.",
         "replies":[
             {
-			"text":"Wait ...",
-				"nextPhraseID":"tt_sly5_32"
+                "text":"Wait ...",
+                "nextPhraseID":"tt_sly5_32"
             }
         ],
         "rewards":[
@@ -3427,12 +3422,12 @@
                 "value":1
             }
         ]
- 	},
+    },
     {
         "id":"tt_sly5_32",
-		"switchToNPC":"none",
-		"message":"A light breeze remained where Seraphina had just been sitting."
- 	},
+        "message":"A light breeze remained where Seraphina had just been sitting.",
+        "switchToNPC":"none"
+    },
     {
         "id":"tt_start",
         "replies":[
@@ -3448,7 +3443,7 @@
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3469,19 +3464,19 @@
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":57,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":70,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":80,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3502,11 +3497,11 @@
     },
     {
         "id":"tt_start_10",
-		"message":"You enter the Thieves' Guild looking for things to do.",
+        "message":"You enter the Thieves' Guild looking for things to do.",
         "replies":[
             {
                 "text":"I am sure that there is another job for me today.",
-				"nextPhraseID":"tt_start_20"
+                "nextPhraseID":"tt_start_20"
             }
         ],
         "rewards":[
@@ -3519,7 +3514,7 @@
     },
     {
         "id":"tt_start_20",
-		"message":"Happy and expectant, you move on.",
+        "message":"Happy and expectant, you move on.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3655,173 +3650,173 @@
             },
             {
                 "text":"I don't have Troublemaker's ring yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_troublemaker",
-						"value":1,
-						"negate":true
-					},
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_troublemaker",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100
                     }
-				]
+                ]
             },
             {
                 "text":"I don't have the ring of backstabbing yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_backstab",
-						"value":1,
-						"negate":true
-					},
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_backstab",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100
                     }
-				]
+                ]
             },
             {
                 "text":"I don't have the Villain's ring yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_villain",
-						"value":1,
-						"negate":true
-					},
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_villain",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100
                     }
-				]
+                ]
             },
             {
                 "text":"I don't have the Tears of the Shadow yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"pot_shadowtear",
-						"value":1,
-						"negate":true
-					},
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_shadowtear",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100
                     }
-				]
+                ]
             },
             {
                 "text":"I don't have Luthor's ring yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_luthor",
-						"value":1,
-						"negate":true
-					},
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_luthor",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"troubling_times",
                         "value":100
                     }
-				]
+                ]
             },
             {
                 "text":"I don't have the 50000 pieces of gold yet.",
-				"nextPhraseID":"tt_talion_74",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"gold",
-						"value":50000,
-						"negate":true
-					}
-				]
+                "nextPhraseID":"tt_talion_74",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":50000,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I have everthing besides Luthor's ring",
-				"nextPhraseID":"tt_talion_76",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_troublemaker",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_backstab",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_villain",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"pot_shadowtear",
-						"value":1
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"ring_luthor",
-						"value":1,
-						"negate":true
-					},
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"gold",
-						"value":50000
-					}
-				]
+                "nextPhraseID":"tt_talion_76",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_troublemaker",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_backstab",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_villain",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_shadowtear",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_luthor",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":50000
+                    }
+                ]
             },
             {
                 "text":"Here's all you have asked for.",
-				"nextPhraseID":"tt_talion_100",
-				"requires":[
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"ring_troublemaker",
-						"value":1
-					},
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"ring_backstab",
-						"value":1
-					},
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"ring_villain",
-						"value":1
-					},
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"pot_shadowtear",
-						"value":1
-					},
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"ring_luthor",
-						"value":1
-					},
-					{
-						"requireType":"inventoryRemove",
-						"requireID":"gold",
-						"value":50000
-					}
-				]
+                "nextPhraseID":"tt_talion_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ring_troublemaker",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ring_backstab",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ring_villain",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_shadowtear",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ring_luthor",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50000
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3834,7 +3829,7 @@
     },
     {
         "id":"tt_talion_74",
-		"message":"Well, then go and find it.",
+        "message":"Well, then go and find it.",
         "replies":[
             {
                 "text":"N",
@@ -3844,19 +3839,19 @@
     },
     {
         "id":"tt_talion_75",
-		"message":"By the way, don't come to me with polished rings. The counterspell works with the unmeddled ones only. Hurry now!"
+        "message":"By the way, don't come to me with polished rings. The counterspell works with the unmeddled ones only. Hurry now!"
     },
     {
         "id":"tt_talion_76",
-		"message":"Good, that's a start.",
+        "message":"Good, that's a start.",
         "replies":[
             {
                 "text":"Now I am going to find Luthor's ring.",
-				"nextPhraseID":"tt_talion_82"
+                "nextPhraseID":"tt_talion_82"
             },
             {
                 "text":"I am glad you approve.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3867,14 +3862,14 @@
             {
                 "text":"Luthor's ring ...",
                 "nextPhraseID":"tt_talion_82",
-				"requires":[
-					{
-						"requireType":"inventoryKeep",
-						"requireID":"pot_shadowtear",
-						"value":1,
-						"negate":true
-					}
-				]
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_shadowtear",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
