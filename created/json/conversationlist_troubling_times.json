@@ -1,6 +1,6 @@
 [
     {
-        "id":"fanamor_tt",
+        "id":"fanamor_tt" ,
         "message":"Sure. I heard you're looking for Sly Seraphina.",
         "replies":[
             {
@@ -4128,5 +4128,5 @@
                 "nextPhraseID":"yolgen_initial_0"
             }
         ]
-    }
+    } 
 ]
