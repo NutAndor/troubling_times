@@ -1,6 +1,6 @@
 [
     {
-        "id":"fanamor_tt" ,
+        "id":"fanamor_tt",
         "message":"Sure. I heard you're looking for Sly Seraphina.",
         "replies":[
             {
@@ -446,7 +446,7 @@
     },
     {
         "id":"nanath_10",
-        "message":"Hello You? How dare you show your face?",
+        "message":"You? How dare you show your face?",
         "replies":[
             {
                 "text":"Why?",
@@ -468,7 +468,7 @@
     },
     {
         "id":"nanath_12",
-        "message":"Hello You? How dare you show your face?",
+        "message":"You? How dare you show your face?",
         "replies":[
             {
                 "text":"Why?",
@@ -626,7 +626,7 @@
         "message":"Oh, back again? I hope you bring good news.",
         "replies":[
             {
-                "text":"Maybe. Talion, Shadow priest, has put the Striking Spectacle Shadow spell on us.",
+                "text":"Maybe. Talion, a Shadow priest, has put the Striking Spectacle Shadow spell on us.",
                 "nextPhraseID":"nanath_72",
                 "requires":[
                     {
@@ -695,7 +695,7 @@
                 ]
             },
             {
-                "text":"Talion said, he can help dispel it.",
+                "text":"Talion said he can help dispel it.",
                 "nextPhraseID":"nanath_80",
                 "requires":[
                     {
@@ -722,7 +722,7 @@
         "message":"What does he want in return?",
         "replies":[
             {
-                "text":"Lady Dameni paid him. Talion wants 50000 coins to dispel us.",
+                "text":"Lady Dameni paid him. Talion wants 50000 gold to dispel us.",
                 "nextPhraseID":"nanath_84"
             }
         ]
@@ -732,7 +732,7 @@
         "message":"That's a lot, but it was to be expected. It's good that he doesn't want more.",
         "replies":[
             {
-                "text":"Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the ring of backstabbing and the Tears of the Shadow potion.",
+                "text":"Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the Ring of backstabbing and the Tears of the Shadow potion.",
                 "nextPhraseID":"nanath_86"
             }
         ]
@@ -766,7 +766,7 @@
     },
     {
         "id":"nanath_92",
-        "message":"Do you have all of the items already?",
+        "message":"Do you already have all of the items?",
         "replies":[
             {
                 "text":"I don't have Troublemaker's ring yet.",
@@ -781,7 +781,7 @@
                 ]
             },
             {
-                "text":"I don't have the ring of backstabbing yet.",
+                "text":"I don't have the Ring of backstabbing yet.",
                 "nextPhraseID":"nanath_94",
                 "requires":[
                     {
@@ -817,7 +817,7 @@
                 ]
             },
             {
-                "text":"I have bought the 4 easier things already.",
+                "text":"I have already brought the 4 easier things.",
                 "nextPhraseID":"nanath_100",
                 "requires":[
                     {
@@ -864,7 +864,7 @@
     },
     {
         "id":"nanath_102",
-        "message":"Umar will refund - only if you succeed.",
+        "message":"Umar will refund you, but only if you succeed.",
         "replies":[
             {
                 "text":"N",
@@ -881,7 +881,7 @@
     },
     {
         "id":"nanath_110",
-        "message":"Have you found Luthor's ring already?",
+        "message":"Have you found Luthor's ring yet?",
         "replies":[
             {
                 "text":"I am looking for it now.",
@@ -991,7 +991,7 @@
     },
     {
         "id":"nanath_150",
-        "message":"How progresses the task? Hope you've done it? We're in a pickle here, kid. No time to dawdle.",
+        "message":"How progresses the task? I hope you've done it? We're in a pickle here, kid. No time to dawdle.",
         "replies":[
             {
                 "text":"Dawdle! Do it yourself if you know everything better!",
@@ -1169,7 +1169,7 @@
     },
     {
         "id":"nanath_184",
-        "message":"She must be found. By all means.",
+        "message":"She must be found. By any means.",
         "replies":[
             {
                 "text":"Yes, sir",
@@ -1286,7 +1286,7 @@
     },
     {
         "id":"nanath_272",
-        "message":"Then bring it to Talion. Quickly."
+        "message":"Then take it to Talion. Quickly."
     },
     {
         "id":"nanath_290",
@@ -1300,7 +1300,7 @@
     },
     {
         "id":"nanath_300",
-        "message":"Good job! Didn't think you could do it. But you did.",
+        "message":"Good job! I didn't think you could do it. But you did.",
         "replies":[
             {
                 "text":"Yes. The search was a nice change.",
@@ -1310,7 +1310,7 @@
     },
     {
         "id":"nanath_302",
-        "message":"Sly Seraphina has already been here and returned Umar Luthor's key. So the room with these dangerous creatures is sealed again.",
+        "message":"Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again.",
         "replies":[
             {
                 "text":"So quick?",
@@ -1822,7 +1822,7 @@
     },
     {
         "id":"tt_sly_94",
-        "message":"Umar and I decided to separate the key and the gloves. And both of us we never meet, to keep that door permanently sealed.",
+        "message":"Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently sealed.",
         "replies":[
             {
                 "text":"So that the door may never be opened.",
@@ -1849,7 +1849,7 @@
     },
     {
         "id":"tt_sly_100",
-        "message":"Even Umar's current plea will not change my mind. Whatever ails the Guild - do find another solution.",
+        "message":"Even Umar's current plea will not change my mind. Whatever ails the Guild - find another solution.",
         "replies":[
             {
                 "text":"What?",
@@ -2112,7 +2112,7 @@
     },
     {
         "id":"tt_sly_210",
-        "message":"Ok, you're tough, even if not smart, kid.",
+        "message":"OK, you're tough, even if not smart, kid.",
         "replies":[
             {
                 "text":"Thank you?",
@@ -2169,7 +2169,7 @@
     },
     {
         "id":"tt_sly_212",
-        "message":"Like we talked, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar.",
+        "message":"As we discussed, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar.",
         "replies":[
             {
                 "text":"N",
@@ -2308,7 +2308,7 @@
     },
     {
         "id":"tt_sly_252",
-        "message":"By the way, here's your money back. 1000 gold pieces.",
+        "message":"By the way, here's your money back. 1000 gold.",
         "replies":[
             {
                 "text":"Hmm, OK.",
@@ -2330,7 +2330,7 @@
     },
     {
         "id":"tt_sly_254",
-        "message":"Meet me at the door to the secret room and bring Luthor's key. Together with Luthor's gloves the door will open.",
+        "message":"Meet me at the door to the secret room, and bring Luthor's key. Together with Luthor's gloves the door will open.",
         "replies":[
             {
                 "text":"OK.",
@@ -2422,7 +2422,7 @@
     },
     {
         "id":"tt_sly_310",
-        "message":"OK, I admit that you are quite fine.",
+        "message":"OK, I admit that you are quite good.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -2435,7 +2435,7 @@
         "message":"I would actually do a job with you again if the opportunity came up.",
         "replies":[
             {
-                "text":"Yes, would be nice.",
+                "text":"Yes, that would be nice.",
                 "nextPhraseID":"tt_sly_330"
             }
         ]
@@ -2463,7 +2463,7 @@
     },
     {
         "id":"tt_sly2",
-        "message":"At last! Did you sleep all the way long?",
+        "message":"At last! Did you sleep all the way here?",
         "replies":[
             {
                 "text":"Polite as ever.",
@@ -2520,7 +2520,7 @@
     },
     {
         "id":"tt_sly2_14",
-        "message":"Don't you dare to come back without!",
+        "message":"Don't you dare to come back without it!",
         "switchToNPC":"tt_seraphina2"
     },
     {
@@ -2529,7 +2529,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"I better follow immediately.",
+                "text":"I had better follow immediately.",
                 "nextPhraseID":"X"
             }
         ],
@@ -3388,7 +3388,7 @@
     },
     {
         "id":"tt_sly5_30",
-        "message":"Here, catch the ring! Keep it safe and bring it to Talion. I'm off.",
+        "message":"Here, catch the ring! Keep it safe and take it to Talion. I'm off.",
         "replies":[
             {
                 "text":"Wait ...",
@@ -3425,7 +3425,7 @@
     },
     {
         "id":"tt_sly5_32",
-        "message":"A light breeze remained where Seraphina had just been sitting.",
+        "message":"A light breeze remaines where Seraphina had just been sitting.",
         "switchToNPC":"none"
     },
     {
@@ -3535,10 +3535,10 @@
     },
     {
         "id":"tt_talion_12",
-        "message":"One of my specials! Just had an opportunity to use it again recently. Went awesome!",
+        "message":"One of my specials! I just had an opportunity to use it again recently. It went great!",
         "replies":[
             {
-                "text":"Why did you do that? People can get hurt?",
+                "text":"Why did you do that? People can get hurt!",
                 "nextPhraseID":"tt_talion_20"
             }
         ]
@@ -3595,10 +3595,10 @@
     },
     {
         "id":"tt_talion_60",
-        "message":"Around 50000 coins, of which a large portion will go back to the mysterious Lady Dameni, who had me do the spell. I would need to pacify her, else her toughs will kill me.",
+        "message":"Around 50000 gold, of which a large portion will go back to the mysterious Lady Dameni, who had me do the spell. I would need to pacify her, otherwise her toughs will kill me.",
         "replies":[
             {
-                "text":"50000 coins! Hope the guild can reimburse me.",
+                "text":"50000 gold! I hope the guild can reimburse me!",
                 "nextPhraseID":"tt_talion_62"
             }
         ],
@@ -3612,10 +3612,10 @@
     },
     {
         "id":"tt_talion_62",
-        "message":"Also I need a few more items ...",
+        "message":"I also need a few more items ...",
         "replies":[
             {
-                "text":"What items?",
+                "text":"Which items?",
                 "nextPhraseID":"tt_talion_70"
             }
         ]
@@ -3642,7 +3642,7 @@
     },
     {
         "id":"tt_talion_72",
-        "message":"Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion. And most important, Luthor's ring. Together with 50000 gold.",
+        "message":"Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of the Shadow potion. And most important, Luthor's ring. Together with 50000 gold.",
         "replies":[
             {
                 "text":"You don't ask for much! Where do I find all that?",
@@ -3666,7 +3666,7 @@
                 ]
             },
             {
-                "text":"I don't have the ring of backstabbing yet.",
+                "text":"I don't have the Ring of backstabbing yet.",
                 "nextPhraseID":"tt_talion_74",
                 "requires":[
                     {
@@ -3734,7 +3734,7 @@
                 ]
             },
             {
-                "text":"I don't have the 50000 pieces of gold yet.",
+                "text":"I don't have the 50000 gold yet.",
                 "nextPhraseID":"tt_talion_74",
                 "requires":[
                     {
@@ -3746,7 +3746,7 @@
                 ]
             },
             {
-                "text":"I have everthing besides Luthor's ring",
+                "text":"I have everthing other than Luthor's ring",
                 "nextPhraseID":"tt_talion_76",
                 "requires":[
                     {
@@ -3956,10 +3956,10 @@
     },
     {
         "id":"tt_talion_100",
-        "message":"Behold - Luthor's ring! And this much gold! I hadn't expected that you would manage so soon.",
+        "message":"Behold - Luthor's ring! And this much gold! I didn't expect that you would manage this so soon.",
         "replies":[
             {
-                "text":"Easy thing for me.",
+                "text":"An easy thing for me.",
                 "nextPhraseID":"tt_talion_110"
             }
         ],
@@ -4023,7 +4023,7 @@
     },
     {
         "id":"tt_talion_130",
-        "message":"Done. Go back to your friends, everything is like before again.",
+        "message":"Done. Go back to your friends, everything is as it was before.",
         "replies":[
             {
                 "text":"Great! Thank you.",
@@ -4111,7 +4111,7 @@
     },
     {
         "id":"tt_thoronir_10",
-        "message":"You must be confusing me.",
+        "message":"You must be confusing me with someone else.",
         "replies":[
             {
                 "text":"Never mind.",
@@ -4128,5 +4128,5 @@
                 "nextPhraseID":"yolgen_initial_0"
             }
         ]
-    } 
+    }
 ]
